@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<AnimationProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <filePath>W:\cocos2d-x\cocos2d-x-2.2.1\projects\Training\Resources_src\Dragon\Dragon.xml.animation</filePath>
+  <Name>Dragon</Name>
+  <ProjectDir>W:\cocos2d-x\cocos2d-x-2.2.1\projects\Training\Resources_src\Dragon</ProjectDir>
+  <JsonFileName>Dragon.json</JsonFileName>
+  <Resources>W:\cocos2d-x\cocos2d-x-2.2.1\projects\Training\Resources_src\Dragon\Resources</Resources>
+  <JsonFolder>W:\cocos2d-x\cocos2d-x-2.2.1\projects\Training\Resources_src\Dragon\Json</JsonFolder>
+  <JsonList />
+  <CanvasSize>
+    <Width>0</Width>
+    <Height>0</Height>
+  </CanvasSize>
+  <bBatchImage>false</bBatchImage>
+</AnimationProject>
