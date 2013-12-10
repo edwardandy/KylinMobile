@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d6424d6-8a24-4a43-8dc3-b312a821331c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Resources/res/CloseNormal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Resources/res/CloseSelected.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Default-568h@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Default@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Resources/res/HelloWorld.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Icon-114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Icon-120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Icon-144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Icon-152.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Icon-57.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Icon-72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Icon-76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AppController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AppController.mm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RootViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RootViewController.mm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Training.xcodeproj/project.xcworkspace/xcshareddata/Training.xccheckout" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Training.xcodeproj/xcuserdata/chenyonghua.xcuserdatad/xcschemes/Training.xcscheme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Resources/cocos2d-jsb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cocos2d_html_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Training.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Resources/src/lesson5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/proj.ios.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Training.xcodeproj/project.pbxproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Training.xcodeproj/xcuserdata/chenyonghua.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Resources_src/ignore/Dragon.fla" afterPath="$PROJECT_DIR$/../Resources_src/ignore/Dragon.fla" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Resources_src/ignore/RECOVER_Dragon.fla" afterPath="$PROJECT_DIR$/../Resources_src/ignore/RECOVER_Dragon.fla" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="proj.ios.iws" />
     <ignored path=".idea/workspace.xml" />
