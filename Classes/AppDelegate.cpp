@@ -18,6 +18,7 @@
 #import "jsb_smartfish_extension_auto.hpp"
 #import "js_bindings_smartfish_manual.h"
 #import "JSHttpRequestTest.h"
+#import "LoaderMaxTest.h"
 
 USING_NS_CC;
 using namespace CocosDenshion;
@@ -65,10 +66,10 @@ bool AppDelegate::applicationDidFinishLaunching()
 //	IsometricTest* test = new IsometricTest();
 //	JSHttpRequestTest* jsHttpRequest = new JSHttpRequestTest();
 //	ThreadTest* threadTest = new ThreadTest();
-//	LoaderMaxTest* loaderMaxTest = new LoaderMaxTest();
+	LoaderMaxTest* loaderMaxTest = new LoaderMaxTest();
 //	MiscTest* miscTest = new MiscTest();
 //	EntityTest* miscTest = new EntityTest();
-//	return true;
+	return true;
 
     ScriptingCore* sc = ScriptingCore::getInstance();
     sc->addRegisterCallback(register_all_cocos2dx);

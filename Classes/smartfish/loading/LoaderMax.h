@@ -16,7 +16,7 @@ NS_SF_BEGIN
 		//Http request type
 		typedef enum
 		{
-			kHttpRequestGet,
+			kHttpRequestGet = 0,
 			kHttpRequestPost,
 			kHttpRequestDownloadFile,
 		} HttpRequestType;
