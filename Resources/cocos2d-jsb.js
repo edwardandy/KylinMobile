@@ -27,12 +27,33 @@
 // Not needed by cocos2d-html5
 
 require("jsb.js");
+require( 'jsb_smartfish_extension_auto_api.js' );
+require( 'jsb_smartfish_extension.js' );
+require( 'src/libs/turbo/turbo.js' );
+require( 'src/libs/http/http.js' );
 
 var appFiles = [
     'src/lesson5.js',
     'src/lesson3.js',
     'src/resource.js',
-    'src/myApp.js'
+    'src/myApp.js',
+
+    'src/test/MiscTest.js',
+    'src/TouchScaleLayer.js',
+    'src/VisibleRect.js',
+    'src/view/isometric/isometricScene.js',
+    'src/view/isometric/isoLayer.js',
+    'src/isometric/IsoSprite.js',
+    'src/isometric/IsoScene.js',
+    'src/isometric/astar/astar.js',
+    'src/isometric/astar/graph.js',
+
+    'src/sample/ContextEvent.js',
+    'src/sample/GameController.js',
+    'src/sample/GameStartService.js',
+    'src/sample/UserModel.js',
+    'src/myMVC.js',
+    'src/test/HttpTest.js'
 ];
 
 cc.dumpConfig();
@@ -46,6 +67,8 @@ director.setDisplayStats(true);
 
 // set FPS. the default value is 1.0/60 if you don't call this
 director.setAnimationInterval(1.0 / 60);
+
+var http = new HttpTest();
 
 // create a scene. it's an autorelease object
 var myScene = new Lesson5();

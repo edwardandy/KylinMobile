@@ -15,6 +15,9 @@
 #include "jsb_opengl_registration.h"
 #include "XMLHTTPRequest.h"
 #include "jsb_websocket.h"
+#import "jsb_smartfish_extension_auto.hpp"
+#import "js_bindings_smartfish_manual.h"
+#import "JSHttpRequestTest.h"
 
 USING_NS_CC;
 using namespace CocosDenshion;
@@ -57,7 +60,16 @@ bool AppDelegate::applicationDidFinishLaunching()
 	}
 
 	CCEGLView::sharedOpenGLView( )->setDesignResolutionSize( designSize.width, designSize.height, kResolutionFixedHeight );
-    
+
+	//test
+//	IsometricTest* test = new IsometricTest();
+//	JSHttpRequestTest* jsHttpRequest = new JSHttpRequestTest();
+//	ThreadTest* threadTest = new ThreadTest();
+//	LoaderMaxTest* loaderMaxTest = new LoaderMaxTest();
+//	MiscTest* miscTest = new MiscTest();
+//	EntityTest* miscTest = new EntityTest();
+//	return true;
+
     ScriptingCore* sc = ScriptingCore::getInstance();
     sc->addRegisterCallback(register_all_cocos2dx);
     sc->addRegisterCallback(register_all_cocos2dx_extension);
@@ -71,6 +83,10 @@ bool AppDelegate::applicationDidFinishLaunching()
     sc->addRegisterCallback(JSB_register_opengl);
     sc->addRegisterCallback(MinXmlHttpRequest::_js_register);
     sc->addRegisterCallback(register_jsb_websocket);
+
+	//modify by chenyonghua
+	sc->addRegisterCallback( register_all_smartfish );
+	sc->addRegisterCallback( register_smartfish_js_extensions );
 
     sc->start();
     

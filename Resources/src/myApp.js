@@ -76,12 +76,9 @@ var MyLayer = cc.Layer.extend({
         this.sprite = cc.Sprite.create("res/HelloWorld.png");
         this.sprite.setAnchorPoint(cc.p(0.5, 0.5));
         this.sprite.setPosition(cc.p(size.width / 2, size.height / 2));
-
         this.addChild(this.sprite, 0);
-
         return true;
     }
-
 });
 
 var MyScene = cc.Scene.extend({

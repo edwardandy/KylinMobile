@@ -29,6 +29,9 @@
       <sourceFolder url="file://$MODULE_DIR$/../Resources/src" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$/../scripting">
+      <sourceFolder url="file://$MODULE_DIR$/../scripting" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../../scripting/javascript/bindings">
       <sourceFolder url="file://$MODULE_DIR$/../../../scripting/javascript/bindings" isTestSource="false" />
     </content>

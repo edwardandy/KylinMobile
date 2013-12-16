@@ -17,4 +17,6 @@ fi
 
 cp -R ../Resources/src/ ${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/src
 cp -R ../Resources/hd/ ${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hd
+
+find ../scripting -type f -name '*.js' -exec cp {} ${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH} \;
 find ../Resources -maxdepth 1 -type f -name '*.js' -exec cp {} ${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH} \;

@@ -237,6 +237,59 @@
 		A922754C1517C094001B78AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A922754B1517C094001B78AA /* UIKit.framework */; };
 		A922754E1517C094001B78AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A922754D1517C094001B78AA /* Foundation.framework */; };
 		A92275501517C094001B78AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A922754F1517C094001B78AA /* CoreGraphics.framework */; };
+		B882902F10C2076946177FA8 /* ThreadMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B882918E11582B43F09279B5 /* ThreadMutex.cpp */; };
+		B88290762ADA144E0BF30A50 /* isometric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B882942B931DEA107CCF5B7C /* isometric.cpp */; };
+		B88290BC8838D988D7E3BAB3 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829B7BCA393FEA3E07F141 /* Entity.cpp */; };
+		B8829112A83BAE9E7FC3CAD5 /* DisplayObjectScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829BF93A6FC7F2B7A4258D /* DisplayObjectScene.cpp */; };
+		B882917BA75064408B9AB49A /* js_bindings_smartfish_manual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829CCEF79D8B4401C88C20 /* js_bindings_smartfish_manual.cpp */; };
+		B88291ACB49884C012E171FB /* ArmatureRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829D1E97C2717F4BE0262E /* ArmatureRenderer.cpp */; };
+		B88291F3488EE2243967B0A3 /* JSHttpRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829D94B0E3C9CC20E4A293 /* JSHttpRequest.cpp */; };
+		B882922A308ED7B85472C374 /* TouchComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B882911E8FE50D75007D8D4C /* TouchComponent.cpp */; };
+		B882924091B81D5036535806 /* CollisionResponseStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829433A4FB8937C0EBC13C /* CollisionResponseStrategy.cpp */; };
+		B8829277A6BC30F36629E052 /* TickedComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88293C22D235B7506E4B508 /* TickedComponent.cpp */; };
+		B88292CB8D6205EB8B836697 /* SignalBus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B882912996A04B452F63050C /* SignalBus.cpp */; };
+		B88292E3D8B789D6A0005433 /* SFObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88294E1FB47FDD4A3243464 /* SFObject.cpp */; };
+		B88293C710D26315283DB460 /* SmashObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88291122229B9388F9EDAB5 /* SmashObject.cpp */; };
+		B88293CC4DC99F05A11838F6 /* smartfish.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B882998B7C2D75B7CB24BB16 /* smartfish.cpp */; };
+		B88294FC1963F598604F787D /* Strategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829CE8469B4F09BC47DD71 /* Strategy.cpp */; };
+		B882958C55F699D0FE8DA638 /* ProcessManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829AB5178F695441DBF06A /* ProcessManager.cpp */; };
+		B882958CF38F8B1D2AE0C3A9 /* ThreadTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88294146134C4A35EC8FE49 /* ThreadTask.cpp */; };
+		B88296AAF0A823566486D160 /* DisplayObjectRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829586372D992B9FA5E132 /* DisplayObjectRenderer.cpp */; };
+		B88296FC673AA4F3F07B230D /* Thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88296520153BBB22500581C /* Thread.cpp */; };
+		B8829737A51E8BDFAFDD164C /* LoaderMaxTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88299EB661AE3E2D9A4957D /* LoaderMaxTest.cpp */; };
+		B882974B85FE40AF129C1A59 /* ObjectType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88296D906E811DF42AE33D0 /* ObjectType.cpp */; };
+		B882976696E2C7AA1412DF01 /* IsometricTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B882992FC0F920D8DE34414C /* IsometricTest.cpp */; };
+		B882979FD556FCAF1A9C46A2 /* EntityComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B882937ACB0B89C83A0604EB /* EntityComponent.cpp */; };
+		B882985A62F04572950A8436 /* EntityTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88297DC4F892F1BCDD27840 /* EntityTest.cpp */; };
+		B8829865742AAD01AC01C925 /* MiscTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88294B53D657A9F15F568BF /* MiscTest.cpp */; };
+		B88298813E48E479558C6236 /* LoaderMax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829D8924D7290AFB6CB105 /* LoaderMax.cpp */; };
+		B882989EB083876B25DC6CF0 /* ThreadTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829F4E5F24DF7C26522136 /* ThreadTest.cpp */; };
+		B88298E893B8A0D3874F43F2 /* IsoNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88292B997212436633422DE /* IsoNode.cpp */; };
+		B882990B732EBC1EBFDA5645 /* JSHttpRequestTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88290FC32B5291D9DDCDEFB /* JSHttpRequestTest.cpp */; };
+		B882993108F9BCDCBF243BD0 /* RowDataComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829725AED7C199BBFCC46F /* RowDataComponent.cpp */; };
+		B882994B9FF262DEEE9E94C1 /* RowSpatialManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829962504CC21709C42573 /* RowSpatialManager.cpp */; };
+		B882998335BD76D856AAE1F4 /* jsb_smartfish_extension_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829BE89961C89E9EBD342A /* jsb_smartfish_extension_auto.cpp */; };
+		B88299C165E708C2AB4BB487 /* IsoSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829A472AD57D46BCFEB369 /* IsoSprite.cpp */; };
+		B8829A9C0AD34FECE66AB943 /* smartfishMarcos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B882944A8A04E62A0C21A719 /* smartfishMarcos.cpp */; };
+		B8829AA3613063649E87B574 /* ResourceManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829F6E80FA706FB41261AC /* ResourceManager.cpp */; };
+		B8829BE5C54EFCF93F48F35C /* SmashGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B882990A509C5B1F71082FF3 /* SmashGroup.cpp */; };
+		B8829BF264EDE43695AE46A9 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829845A5463AE9D72467DE /* Utils.cpp */; };
+		B8829C2A194D3BAC8F9DA6A9 /* Conditional.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B882903B8BA69CDCCEBA986A /* Conditional.cpp */; };
+		B8829C6D8350CFA9C57AB6E8 /* RowTransformComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B882939F4CC895EF7EE5A212 /* RowTransformComponent.cpp */; };
+		B8829C74AEDA28AA069D73B7 /* StrategyContainingComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829F68FF619493D3AA864E /* StrategyContainingComponent.cpp */; };
+		B8829C93B1925D1970044474 /* ThreadPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829F4C185FCF57537C0A60 /* ThreadPool.cpp */; };
+		B8829D365BC6528647925B9B /* AnimatedComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B882981D091DD187BAC9705B /* AnimatedComponent.cpp */; };
+		B8829D38D6F62B68C8ABCE6F /* RowSpatialObjectComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88298EF65A541C6B9B4270C /* RowSpatialObjectComponent.cpp */; };
+		B8829D4AA0124010A48DD52B /* IsoConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829D1B43BD1C92365E8843 /* IsoConfig.cpp */; };
+		B8829D79C1F51ABC75CF13B4 /* Smash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88294019C82BA0C13BFEC0F /* Smash.cpp */; };
+		B8829D90E065F50C695097E7 /* IsoPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88296F707BC54D41B666ABC /* IsoPoint.cpp */; };
+		B8829D95F9C7909AF284E8F5 /* SceneLayoutRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829C57A3C0D11140A29FA2 /* SceneLayoutRenderer.cpp */; };
+		B8829DDD99C32A68A296E354 /* jsb_smartfish_extension_auto_api.js in Sources */ = {isa = PBXBuildFile; fileRef = B88294DAF7065EEA327A8553 /* jsb_smartfish_extension_auto_api.js */; };
+		B8829DFFB7F4E8F23E5782E8 /* VisibleRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B88292CD8452FDBF2D73D05E /* VisibleRect.cpp */; };
+		B8829E33A0D4D4C44A531A93 /* IsoMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829B09B3371AB69E63BDEC /* IsoMath.cpp */; };
+		B8829F8DBEE78FA91B601D2E /* CollisionResponseComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829F67EF7CA3DEFDCCC63B /* CollisionResponseComponent.cpp */; };
+		B8829F8ECF0EE67739C1163E /* jsb_smartfish_extension.js in Sources */ = {isa = PBXBuildFile; fileRef = B8829C15FBE33406EE70901B /* jsb_smartfish_extension.js */; };
+		B8829FDCFE0B6CDFE1AA6590 /* LoadingItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8829E5A8C2E14D1A98650D3 /* LoadingItem.cpp */; };
 		D446FDA316102D7D000ADA7B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D446FDA216102D7D000ADA7B /* Default.png */; };
 		D446FDA516102D82000ADA7B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D446FDA416102D82000ADA7B /* Default@2x.png */; };
 		D446FDA716102D86000ADA7B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D446FDA616102D86000ADA7B /* Default-568h@2x.png */; };
@@ -701,6 +754,111 @@
 		A922754B1517C094001B78AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A922754D1517C094001B78AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A922754F1517C094001B78AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B882901027E625B408C7A1E4 /* SmashObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmashObject.h; sourceTree = "<group>"; };
+		B88290216C66836A2B4EBDF4 /* SmashMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmashMacros.h; sourceTree = "<group>"; };
+		B882902F7C639DE6C95C9026 /* RowDataComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowDataComponent.h; sourceTree = "<group>"; };
+		B882903B8BA69CDCCEBA986A /* Conditional.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Conditional.cpp; sourceTree = "<group>"; };
+		B882905B7DFFEB7CC5B18365 /* TickedComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickedComponent.h; sourceTree = "<group>"; };
+		B88290B1A2D2C2BD33B1FFCF /* IsoMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsoMath.h; sourceTree = "<group>"; };
+		B88290C3BAB26E8D196935C3 /* JSHttpRequestTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSHttpRequestTest.h; sourceTree = "<group>"; };
+		B88290C4FD6EC55F3D0F6262 /* RowSpatialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowSpatialManager.h; sourceTree = "<group>"; };
+		B88290DD229AA2458B147D30 /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
+		B88290FC32B5291D9DDCDEFB /* JSHttpRequestTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSHttpRequestTest.cpp; sourceTree = "<group>"; };
+		B88291122229B9388F9EDAB5 /* SmashObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmashObject.cpp; sourceTree = "<group>"; };
+		B8829118A00E3A4535108320 /* DisplayObjectScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayObjectScene.h; sourceTree = "<group>"; };
+		B882911CAC8A295B51CC7C70 /* ArmatureRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArmatureRenderer.h; sourceTree = "<group>"; };
+		B882911E8FE50D75007D8D4C /* TouchComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TouchComponent.cpp; sourceTree = "<group>"; };
+		B882912996A04B452F63050C /* SignalBus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SignalBus.cpp; sourceTree = "<group>"; };
+		B8829183913820D02E6FC7A3 /* ThreadTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadTest.h; sourceTree = "<group>"; };
+		B882918E11582B43F09279B5 /* ThreadMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreadMutex.cpp; sourceTree = "<group>"; };
+		B8829194A3B1D47DCE2678CB /* Smash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Smash.h; sourceTree = "<group>"; };
+		B8829274B355079BA10063E7 /* CollisionResponseComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionResponseComponent.h; sourceTree = "<group>"; };
+		B88292A3C4B367380F1102F9 /* SmashGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmashGroup.h; sourceTree = "<group>"; };
+		B88292B997212436633422DE /* IsoNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsoNode.cpp; sourceTree = "<group>"; };
+		B88292CD8452FDBF2D73D05E /* VisibleRect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VisibleRect.cpp; sourceTree = "<group>"; };
+		B88293795B9CCC95FA08A5A6 /* TouchComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchComponent.h; sourceTree = "<group>"; };
+		B882937ACB0B89C83A0604EB /* EntityComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EntityComponent.cpp; sourceTree = "<group>"; };
+		B882939F4CC895EF7EE5A212 /* RowTransformComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RowTransformComponent.cpp; sourceTree = "<group>"; };
+		B88293C22D235B7506E4B508 /* TickedComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TickedComponent.cpp; sourceTree = "<group>"; };
+		B88293C30A870B722C784CBE /* IsoSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsoSprite.h; sourceTree = "<group>"; };
+		B88293D97074F3131D60E164 /* ThreadMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadMutex.h; sourceTree = "<group>"; };
+		B88293F08E79833F4C0FE28D /* smartfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smartfish.h; sourceTree = "<group>"; };
+		B88294019C82BA0C13BFEC0F /* Smash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Smash.cpp; sourceTree = "<group>"; };
+		B882940AE6437FDF4C3A8B14 /* LoaderMaxTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoaderMaxTest.h; sourceTree = "<group>"; };
+		B882940D3CE466EE4151D430 /* ThreadPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPool.h; sourceTree = "<group>"; };
+		B88294146134C4A35EC8FE49 /* ThreadTask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreadTask.cpp; sourceTree = "<group>"; };
+		B882942B931DEA107CCF5B7C /* isometric.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = isometric.cpp; sourceTree = "<group>"; };
+		B8829433A4FB8937C0EBC13C /* CollisionResponseStrategy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CollisionResponseStrategy.cpp; sourceTree = "<group>"; };
+		B882944A8A04E62A0C21A719 /* smartfishMarcos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = smartfishMarcos.cpp; sourceTree = "<group>"; };
+		B88294B53D657A9F15F568BF /* MiscTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MiscTest.cpp; sourceTree = "<group>"; };
+		B88294BCFBEC545E0857200D /* RowSpatialObjectComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowSpatialObjectComponent.h; sourceTree = "<group>"; };
+		B88294DAF7065EEA327A8553 /* jsb_smartfish_extension_auto_api.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsb_smartfish_extension_auto_api.js; sourceTree = "<group>"; };
+		B88294E1FB47FDD4A3243464 /* SFObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFObject.cpp; sourceTree = "<group>"; };
+		B88294E8ABEA89FF2C807501 /* LoadingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingItem.h; sourceTree = "<group>"; };
+		B88294FB19C00A5FCC7C0C16 /* IsoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsoConfig.h; sourceTree = "<group>"; };
+		B8829507DE96B79EB018DA6A /* isometric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isometric.h; sourceTree = "<group>"; };
+		B8829586372D992B9FA5E132 /* DisplayObjectRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DisplayObjectRenderer.cpp; sourceTree = "<group>"; };
+		B882962E3D82A59C02D8C390 /* Conditional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conditional.h; sourceTree = "<group>"; };
+		B88296520153BBB22500581C /* Thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Thread.cpp; sourceTree = "<group>"; };
+		B8829689E3550870C2C6D408 /* ThreadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadTask.h; sourceTree = "<group>"; };
+		B88296C4DEBA824A345CD20D /* EntityTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityTest.h; sourceTree = "<group>"; };
+		B88296C9839E603FD44942FD /* ProcessManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessManager.h; sourceTree = "<group>"; };
+		B88296D906E811DF42AE33D0 /* ObjectType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObjectType.cpp; sourceTree = "<group>"; };
+		B88296F707BC54D41B666ABC /* IsoPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsoPoint.cpp; sourceTree = "<group>"; };
+		B8829725AED7C199BBFCC46F /* RowDataComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RowDataComponent.cpp; sourceTree = "<group>"; };
+		B882976069C79131F674E8D9 /* IsoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsoPoint.h; sourceTree = "<group>"; };
+		B882978C5F9A8ECA3D00AF57 /* LoaderMax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoaderMax.h; sourceTree = "<group>"; };
+		B88297DC4F892F1BCDD27840 /* EntityTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EntityTest.cpp; sourceTree = "<group>"; };
+		B882981D091DD187BAC9705B /* AnimatedComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimatedComponent.cpp; sourceTree = "<group>"; };
+		B88298382A4F9B279C7AE939 /* IsometricTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsometricTest.h; sourceTree = "<group>"; };
+		B8829845A5463AE9D72467DE /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		B882984D12DA15545713BBE0 /* smartfishMarcos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smartfishMarcos.h; sourceTree = "<group>"; };
+		B88298ADF146B7AEBD2CE114 /* CollisionResponseStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionResponseStrategy.h; sourceTree = "<group>"; };
+		B88298E2E7005B63E0D10394 /* jsb_smartfish_extension_auto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jsb_smartfish_extension_auto.hpp; sourceTree = "<group>"; };
+		B88298EF65A541C6B9B4270C /* RowSpatialObjectComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RowSpatialObjectComponent.cpp; sourceTree = "<group>"; };
+		B882990A509C5B1F71082FF3 /* SmashGroup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmashGroup.cpp; sourceTree = "<group>"; };
+		B8829918F6359CE4D69B2A7F /* IsoNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsoNode.h; sourceTree = "<group>"; };
+		B882992FC0F920D8DE34414C /* IsometricTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsometricTest.cpp; sourceTree = "<group>"; };
+		B8829939E27B8F0914559362 /* EntityComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityComponent.h; sourceTree = "<group>"; };
+		B8829962504CC21709C42573 /* RowSpatialManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RowSpatialManager.cpp; sourceTree = "<group>"; };
+		B882998B7C2D75B7CB24BB16 /* smartfish.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = smartfish.cpp; sourceTree = "<group>"; };
+		B88299EB661AE3E2D9A4957D /* LoaderMaxTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoaderMaxTest.cpp; sourceTree = "<group>"; };
+		B8829A1369F9A330FFAD4CD4 /* js_bindings_smartfish_manual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = js_bindings_smartfish_manual.h; sourceTree = "<group>"; };
+		B8829A41DFFF4D81D46E804A /* AnimatedComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedComponent.h; sourceTree = "<group>"; };
+		B8829A472AD57D46BCFEB369 /* IsoSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsoSprite.cpp; sourceTree = "<group>"; };
+		B8829A62A660C7811C37B78E /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		B8829AB5178F695441DBF06A /* ProcessManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProcessManager.cpp; sourceTree = "<group>"; };
+		B8829AC65B1CAF46612F4634 /* ObjectType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectType.h; sourceTree = "<group>"; };
+		B8829B09B3371AB69E63BDEC /* IsoMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsoMath.cpp; sourceTree = "<group>"; };
+		B8829B39CBE0D21B52DA3366 /* JSHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSHttpRequest.h; sourceTree = "<group>"; };
+		B8829B7BCA393FEA3E07F141 /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		B8829BB6D5C58B2EA99DDA26 /* SceneLayoutRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneLayoutRenderer.h; sourceTree = "<group>"; };
+		B8829BE89961C89E9EBD342A /* jsb_smartfish_extension_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_smartfish_extension_auto.cpp; sourceTree = "<group>"; };
+		B8829BF93A6FC7F2B7A4258D /* DisplayObjectScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DisplayObjectScene.cpp; sourceTree = "<group>"; };
+		B8829C15FBE33406EE70901B /* jsb_smartfish_extension.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsb_smartfish_extension.js; sourceTree = "<group>"; };
+		B8829C51B88FB01DBDB34E68 /* SFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFObject.h; sourceTree = "<group>"; };
+		B8829C57A3C0D11140A29FA2 /* SceneLayoutRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneLayoutRenderer.cpp; sourceTree = "<group>"; };
+		B8829CA258499989DD6DD84D /* DisplayObjectRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayObjectRenderer.h; sourceTree = "<group>"; };
+		B8829CCEF79D8B4401C88C20 /* js_bindings_smartfish_manual.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = js_bindings_smartfish_manual.cpp; sourceTree = "<group>"; };
+		B8829CE8469B4F09BC47DD71 /* Strategy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Strategy.cpp; sourceTree = "<group>"; };
+		B8829D1B43BD1C92365E8843 /* IsoConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsoConfig.cpp; sourceTree = "<group>"; };
+		B8829D1E97C2717F4BE0262E /* ArmatureRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArmatureRenderer.cpp; sourceTree = "<group>"; };
+		B8829D33881F556F29863790 /* VisibleRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisibleRect.h; sourceTree = "<group>"; };
+		B8829D8924D7290AFB6CB105 /* LoaderMax.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoaderMax.cpp; sourceTree = "<group>"; };
+		B8829D94B0E3C9CC20E4A293 /* JSHttpRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSHttpRequest.cpp; sourceTree = "<group>"; };
+		B8829DAEF316B46A2928E5A8 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		B8829E2F5D5A3EF03DE40B7E /* MiscTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiscTest.h; sourceTree = "<group>"; };
+		B8829E3F4580A00633311551 /* SignalBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalBus.h; sourceTree = "<group>"; };
+		B8829E5A8C2E14D1A98650D3 /* LoadingItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadingItem.cpp; sourceTree = "<group>"; };
+		B8829E7CA6129E04C7B5786C /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
+		B8829EAF7819D9DF2B21D884 /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
+		B8829F222455343EA6F34E1E /* RowTransformComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowTransformComponent.h; sourceTree = "<group>"; };
+		B8829F4C185FCF57537C0A60 /* ThreadPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreadPool.cpp; sourceTree = "<group>"; };
+		B8829F4E5F24DF7C26522136 /* ThreadTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreadTest.cpp; sourceTree = "<group>"; };
+		B8829F67EF7CA3DEFDCCC63B /* CollisionResponseComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CollisionResponseComponent.cpp; sourceTree = "<group>"; };
+		B8829F68FF619493D3AA864E /* StrategyContainingComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StrategyContainingComponent.cpp; sourceTree = "<group>"; };
+		B8829F6E80FA706FB41261AC /* ResourceManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResourceManager.cpp; sourceTree = "<group>"; };
+		B8829FF3E69E36DB84B938AA /* StrategyContainingComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrategyContainingComponent.h; sourceTree = "<group>"; };
 		D446FDA216102D7D000ADA7B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D446FDA416102D82000ADA7B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D446FDA616102D86000ADA7B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -1565,6 +1723,7 @@
 				1AB87018175E07C6005D39BF /* libwebsockets */,
 				A922753E1517C094001B78AA /* Products */,
 				15628F5B15F0F5C2000CF24B /* Resources */,
+				B882985972C0FDA505CCED50 /* scripting */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1595,6 +1754,293 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B882902045B10CA7424D20EB /* display */ = {
+			isa = PBXGroup;
+			children = (
+				B88298105C63A16C97D8B8EA /* armature */,
+				B8829118A00E3A4535108320 /* DisplayObjectScene.h */,
+				B8829BF93A6FC7F2B7A4258D /* DisplayObjectScene.cpp */,
+				B8829CA258499989DD6DD84D /* DisplayObjectRenderer.h */,
+				B8829586372D992B9FA5E132 /* DisplayObjectRenderer.cpp */,
+			);
+			path = display;
+			sourceTree = "<group>";
+		};
+		B882902BD7B4211FE3397530 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				B8829DAEF316B46A2928E5A8 /* Entity.h */,
+				B8829B7BCA393FEA3E07F141 /* Entity.cpp */,
+				B88292A3C4B367380F1102F9 /* SmashGroup.h */,
+				B88290216C66836A2B4EBDF4 /* SmashMacros.h */,
+				B882901027E625B408C7A1E4 /* SmashObject.h */,
+				B882990A509C5B1F71082FF3 /* SmashGroup.cpp */,
+				B88291122229B9388F9EDAB5 /* SmashObject.cpp */,
+				B8829939E27B8F0914559362 /* EntityComponent.h */,
+				B882937ACB0B89C83A0604EB /* EntityComponent.cpp */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		B8829124A03367C5B040C4C9 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				B8829E2F5D5A3EF03DE40B7E /* MiscTest.h */,
+				B88296C4DEBA824A345CD20D /* EntityTest.h */,
+				B88294B53D657A9F15F568BF /* MiscTest.cpp */,
+				B8829183913820D02E6FC7A3 /* ThreadTest.h */,
+				B88297DC4F892F1BCDD27840 /* EntityTest.cpp */,
+				B8829F4E5F24DF7C26522136 /* ThreadTest.cpp */,
+				B88298382A4F9B279C7AE939 /* IsometricTest.h */,
+				B882940AE6437FDF4C3A8B14 /* LoaderMaxTest.h */,
+				B882992FC0F920D8DE34414C /* IsometricTest.cpp */,
+				B88299EB661AE3E2D9A4957D /* LoaderMaxTest.cpp */,
+				B88290C3BAB26E8D196935C3 /* JSHttpRequestTest.h */,
+				B88290FC32B5291D9DDCDEFB /* JSHttpRequestTest.cpp */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		B88291CDE88BA898D79C561F /* util */ = {
+			isa = PBXGroup;
+			children = (
+				B8829A62A660C7811C37B78E /* Utils.h */,
+				B8829845A5463AE9D72467DE /* Utils.cpp */,
+				B8829AC65B1CAF46612F4634 /* ObjectType.h */,
+				B88296D906E811DF42AE33D0 /* ObjectType.cpp */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		B88291DD1F625B2A45BA2DE3 /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				B8829BE89961C89E9EBD342A /* jsb_smartfish_extension_auto.cpp */,
+				B88298E2E7005B63E0D10394 /* jsb_smartfish_extension_auto.hpp */,
+				B88294DAF7065EEA327A8553 /* jsb_smartfish_extension_auto_api.js */,
+			);
+			path = generated;
+			sourceTree = "<group>";
+		};
+		B882927B5FB0F93F3932F438 /* thread */ = {
+			isa = PBXGroup;
+			children = (
+				B8829EAF7819D9DF2B21D884 /* Thread.h */,
+				B88296520153BBB22500581C /* Thread.cpp */,
+				B882940D3CE466EE4151D430 /* ThreadPool.h */,
+				B8829689E3550870C2C6D408 /* ThreadTask.h */,
+				B88293D97074F3131D60E164 /* ThreadMutex.h */,
+				B8829F4C185FCF57537C0A60 /* ThreadPool.cpp */,
+				B88294146134C4A35EC8FE49 /* ThreadTask.cpp */,
+				B882918E11582B43F09279B5 /* ThreadMutex.cpp */,
+			);
+			path = thread;
+			sourceTree = "<group>";
+		};
+		B88292BA25AE913F4E885A8D /* signal */ = {
+			isa = PBXGroup;
+			children = (
+				B8829E3F4580A00633311551 /* SignalBus.h */,
+				B882912996A04B452F63050C /* SignalBus.cpp */,
+			);
+			path = signal;
+			sourceTree = "<group>";
+		};
+		B88298105C63A16C97D8B8EA /* armature */ = {
+			isa = PBXGroup;
+			children = (
+				B882911CAC8A295B51CC7C70 /* ArmatureRenderer.h */,
+				B8829D1E97C2717F4BE0262E /* ArmatureRenderer.cpp */,
+			);
+			path = armature;
+			sourceTree = "<group>";
+		};
+		B882985972C0FDA505CCED50 /* scripting */ = {
+			isa = PBXGroup;
+			children = (
+				B88291DD1F625B2A45BA2DE3 /* generated */,
+				B8829EC91D23721248E0870E /* js */,
+				B8829CCEF79D8B4401C88C20 /* js_bindings_smartfish_manual.cpp */,
+				B8829A1369F9A330FFAD4CD4 /* js_bindings_smartfish_manual.h */,
+			);
+			name = scripting;
+			path = ../scripting;
+			sourceTree = "<group>";
+		};
+		B88298C6376116A0DD710905 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				B8829C51B88FB01DBDB34E68 /* SFObject.h */,
+				B88294E1FB47FDD4A3243464 /* SFObject.cpp */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		B88298EFBDB71E10C3943550 /* time */ = {
+			isa = PBXGroup;
+			children = (
+				B88296C9839E603FD44942FD /* ProcessManager.h */,
+				B882905B7DFFEB7CC5B18365 /* TickedComponent.h */,
+				B8829AB5178F695441DBF06A /* ProcessManager.cpp */,
+				B8829A41DFFF4D81D46E804A /* AnimatedComponent.h */,
+				B88293C22D235B7506E4B508 /* TickedComponent.cpp */,
+				B882981D091DD187BAC9705B /* AnimatedComponent.cpp */,
+			);
+			path = time;
+			sourceTree = "<group>";
+		};
+		B8829953EBAAFBEF400A8870 /* health */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = health;
+			sourceTree = "<group>";
+		};
+		B8829958B8875474DB841770 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				B8829B39CBE0D21B52DA3366 /* JSHttpRequest.h */,
+				B8829D94B0E3C9CC20E4A293 /* JSHttpRequest.cpp */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		B882999B6920994E5CE578E3 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				B88290DD229AA2458B147D30 /* ResourceManager.h */,
+				B8829F6E80FA706FB41261AC /* ResourceManager.cpp */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		B88299F7E4130184F95482BE /* conditional */ = {
+			isa = PBXGroup;
+			children = (
+				B882962E3D82A59C02D8C390 /* Conditional.h */,
+				B882903B8BA69CDCCEBA986A /* Conditional.cpp */,
+			);
+			path = conditional;
+			sourceTree = "<group>";
+		};
+		B8829B3F258A628BE6D16749 /* touch */ = {
+			isa = PBXGroup;
+			children = (
+				B88293795B9CCC95FA08A5A6 /* TouchComponent.h */,
+				B882911E8FE50D75007D8D4C /* TouchComponent.cpp */,
+			);
+			path = touch;
+			sourceTree = "<group>";
+		};
+		B8829C53CF3A03B7EC3585CB /* isometric */ = {
+			isa = PBXGroup;
+			children = (
+				B88290B1A2D2C2BD33B1FFCF /* IsoMath.h */,
+				B8829918F6359CE4D69B2A7F /* IsoNode.h */,
+				B882976069C79131F674E8D9 /* IsoPoint.h */,
+				B88294FB19C00A5FCC7C0C16 /* IsoConfig.h */,
+				B8829B09B3371AB69E63BDEC /* IsoMath.cpp */,
+				B8829507DE96B79EB018DA6A /* isometric.h */,
+				B88292B997212436633422DE /* IsoNode.cpp */,
+				B88293C30A870B722C784CBE /* IsoSprite.h */,
+				B88296F707BC54D41B666ABC /* IsoPoint.cpp */,
+				B8829D1B43BD1C92365E8843 /* IsoConfig.cpp */,
+				B882942B931DEA107CCF5B7C /* isometric.cpp */,
+				B8829A472AD57D46BCFEB369 /* IsoSprite.cpp */,
+				B8829BB6D5C58B2EA99DDA26 /* SceneLayoutRenderer.h */,
+				B8829C57A3C0D11140A29FA2 /* SceneLayoutRenderer.cpp */,
+			);
+			path = isometric;
+			sourceTree = "<group>";
+		};
+		B8829D199F66F568160E6131 /* smash */ = {
+			isa = PBXGroup;
+			children = (
+				B882902BD7B4211FE3397530 /* core */,
+				B88298EFBDB71E10C3943550 /* time */,
+				B88291CDE88BA898D79C561F /* util */,
+				B8829B3F258A628BE6D16749 /* touch */,
+				B8829953EBAAFBEF400A8870 /* health */,
+				B88292BA25AE913F4E885A8D /* signal */,
+				B882902045B10CA7424D20EB /* display */,
+				B8829194A3B1D47DCE2678CB /* Smash.h */,
+				B8829E16C3319E6E06055E58 /* spatial */,
+				B8829FBB5BE4753BD55AFCE9 /* strategy */,
+				B88294019C82BA0C13BFEC0F /* Smash.cpp */,
+				B88299F7E4130184F95482BE /* conditional */,
+			);
+			path = smash;
+			sourceTree = "<group>";
+		};
+		B8829E16C3319E6E06055E58 /* spatial */ = {
+			isa = PBXGroup;
+			children = (
+				B882902F7C639DE6C95C9026 /* RowDataComponent.h */,
+				B88290C4FD6EC55F3D0F6262 /* RowSpatialManager.h */,
+				B8829725AED7C199BBFCC46F /* RowDataComponent.cpp */,
+				B8829962504CC21709C42573 /* RowSpatialManager.cpp */,
+				B8829F222455343EA6F34E1E /* RowTransformComponent.h */,
+				B882939F4CC895EF7EE5A212 /* RowTransformComponent.cpp */,
+				B88294BCFBEC545E0857200D /* RowSpatialObjectComponent.h */,
+				B8829274B355079BA10063E7 /* CollisionResponseComponent.h */,
+				B88298EF65A541C6B9B4270C /* RowSpatialObjectComponent.cpp */,
+				B8829F67EF7CA3DEFDCCC63B /* CollisionResponseComponent.cpp */,
+			);
+			path = spatial;
+			sourceTree = "<group>";
+		};
+		B8829EB334ED083A6BE2A16D /* loading */ = {
+			isa = PBXGroup;
+			children = (
+				B882978C5F9A8ECA3D00AF57 /* LoaderMax.h */,
+				B8829D8924D7290AFB6CB105 /* LoaderMax.cpp */,
+				B88294E8ABEA89FF2C807501 /* LoadingItem.h */,
+				B8829E5A8C2E14D1A98650D3 /* LoadingItem.cpp */,
+			);
+			path = loading;
+			sourceTree = "<group>";
+		};
+		B8829EC91D23721248E0870E /* js */ = {
+			isa = PBXGroup;
+			children = (
+				B8829C15FBE33406EE70901B /* jsb_smartfish_extension.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		B8829FBB5BE4753BD55AFCE9 /* strategy */ = {
+			isa = PBXGroup;
+			children = (
+				B8829E7CA6129E04C7B5786C /* Strategy.h */,
+				B8829CE8469B4F09BC47DD71 /* Strategy.cpp */,
+				B88298ADF146B7AEBD2CE114 /* CollisionResponseStrategy.h */,
+				B8829433A4FB8937C0EBC13C /* CollisionResponseStrategy.cpp */,
+				B8829FF3E69E36DB84B938AA /* StrategyContainingComponent.h */,
+				B8829F68FF619493D3AA864E /* StrategyContainingComponent.cpp */,
+			);
+			path = strategy;
+			sourceTree = "<group>";
+		};
+		B8829FD0DF3414955B6372B0 /* smartfish */ = {
+			isa = PBXGroup;
+			children = (
+				B88298C6376116A0DD710905 /* core */,
+				B8829958B8875474DB841770 /* http */,
+				B8829D199F66F568160E6131 /* smash */,
+				B882927B5FB0F93F3932F438 /* thread */,
+				B8829EB334ED083A6BE2A16D /* loading */,
+				B882999B6920994E5CE578E3 /* resource */,
+				B8829C53CF3A03B7EC3585CB /* isometric */,
+				B88293F08E79833F4C0FE28D /* smartfish.h */,
+				B882998B7C2D75B7CB24BB16 /* smartfish.cpp */,
+				B8829D33881F556F29863790 /* VisibleRect.h */,
+				B88292CD8452FDBF2D73D05E /* VisibleRect.cpp */,
+				B882984D12DA15545713BBE0 /* smartfishMarcos.h */,
+				B882944A8A04E62A0C21A719 /* smartfishMarcos.cpp */,
+			);
+			path = smartfish;
+			sourceTree = "<group>";
+		};
 		D45446CC156DE73F00887EB5 /* ios */ = {
 			isa = PBXGroup;
 			children = (
@@ -1614,6 +2060,8 @@
 			children = (
 				D4545215156E28EF00887EB5 /* AppDelegate.cpp */,
 				D4545216156E28EF00887EB5 /* AppDelegate.h */,
+				B8829FD0DF3414955B6372B0 /* smartfish */,
+				B8829124A03367C5B040C4C9 /* test */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -1938,6 +2386,59 @@
 				1A5E74D117F0874400B9ACAE /* json_reader.cpp in Sources */,
 				1A5E74D217F0874400B9ACAE /* json_value.cpp in Sources */,
 				1A5E74D417F0874400B9ACAE /* json_writer.cpp in Sources */,
+				B88292E3D8B789D6A0005433 /* SFObject.cpp in Sources */,
+				B88291F3488EE2243967B0A3 /* JSHttpRequest.cpp in Sources */,
+				B88290BC8838D988D7E3BAB3 /* Entity.cpp in Sources */,
+				B8829BE5C54EFCF93F48F35C /* SmashGroup.cpp in Sources */,
+				B88293C710D26315283DB460 /* SmashObject.cpp in Sources */,
+				B882979FD556FCAF1A9C46A2 /* EntityComponent.cpp in Sources */,
+				B882958C55F699D0FE8DA638 /* ProcessManager.cpp in Sources */,
+				B8829277A6BC30F36629E052 /* TickedComponent.cpp in Sources */,
+				B8829D365BC6528647925B9B /* AnimatedComponent.cpp in Sources */,
+				B8829BF264EDE43695AE46A9 /* Utils.cpp in Sources */,
+				B882974B85FE40AF129C1A59 /* ObjectType.cpp in Sources */,
+				B882922A308ED7B85472C374 /* TouchComponent.cpp in Sources */,
+				B88292CB8D6205EB8B836697 /* SignalBus.cpp in Sources */,
+				B88291ACB49884C012E171FB /* ArmatureRenderer.cpp in Sources */,
+				B8829112A83BAE9E7FC3CAD5 /* DisplayObjectScene.cpp in Sources */,
+				B88296AAF0A823566486D160 /* DisplayObjectRenderer.cpp in Sources */,
+				B882993108F9BCDCBF243BD0 /* RowDataComponent.cpp in Sources */,
+				B882994B9FF262DEEE9E94C1 /* RowSpatialManager.cpp in Sources */,
+				B8829C6D8350CFA9C57AB6E8 /* RowTransformComponent.cpp in Sources */,
+				B8829D38D6F62B68C8ABCE6F /* RowSpatialObjectComponent.cpp in Sources */,
+				B8829F8DBEE78FA91B601D2E /* CollisionResponseComponent.cpp in Sources */,
+				B88294FC1963F598604F787D /* Strategy.cpp in Sources */,
+				B882924091B81D5036535806 /* CollisionResponseStrategy.cpp in Sources */,
+				B8829C74AEDA28AA069D73B7 /* StrategyContainingComponent.cpp in Sources */,
+				B8829D79C1F51ABC75CF13B4 /* Smash.cpp in Sources */,
+				B8829C2A194D3BAC8F9DA6A9 /* Conditional.cpp in Sources */,
+				B88296FC673AA4F3F07B230D /* Thread.cpp in Sources */,
+				B8829C93B1925D1970044474 /* ThreadPool.cpp in Sources */,
+				B882958CF38F8B1D2AE0C3A9 /* ThreadTask.cpp in Sources */,
+				B882902F10C2076946177FA8 /* ThreadMutex.cpp in Sources */,
+				B88298813E48E479558C6236 /* LoaderMax.cpp in Sources */,
+				B8829FDCFE0B6CDFE1AA6590 /* LoadingItem.cpp in Sources */,
+				B8829AA3613063649E87B574 /* ResourceManager.cpp in Sources */,
+				B8829E33A0D4D4C44A531A93 /* IsoMath.cpp in Sources */,
+				B88298E893B8A0D3874F43F2 /* IsoNode.cpp in Sources */,
+				B8829D90E065F50C695097E7 /* IsoPoint.cpp in Sources */,
+				B8829D4AA0124010A48DD52B /* IsoConfig.cpp in Sources */,
+				B88290762ADA144E0BF30A50 /* isometric.cpp in Sources */,
+				B88299C165E708C2AB4BB487 /* IsoSprite.cpp in Sources */,
+				B8829D95F9C7909AF284E8F5 /* SceneLayoutRenderer.cpp in Sources */,
+				B88293CC4DC99F05A11838F6 /* smartfish.cpp in Sources */,
+				B8829DFFB7F4E8F23E5782E8 /* VisibleRect.cpp in Sources */,
+				B8829A9C0AD34FECE66AB943 /* smartfishMarcos.cpp in Sources */,
+				B8829865742AAD01AC01C925 /* MiscTest.cpp in Sources */,
+				B882985A62F04572950A8436 /* EntityTest.cpp in Sources */,
+				B882989EB083876B25DC6CF0 /* ThreadTest.cpp in Sources */,
+				B882976696E2C7AA1412DF01 /* IsometricTest.cpp in Sources */,
+				B8829737A51E8BDFAFDD164C /* LoaderMaxTest.cpp in Sources */,
+				B882990B732EBC1EBFDA5645 /* JSHttpRequestTest.cpp in Sources */,
+				B882998335BD76D856AAE1F4 /* jsb_smartfish_extension_auto.cpp in Sources */,
+				B8829DDD99C32A68A296E354 /* jsb_smartfish_extension_auto_api.js in Sources */,
+				B8829F8ECF0EE67739C1163E /* jsb_smartfish_extension.js in Sources */,
+				B882917BA75064408B9AB49A /* js_bindings_smartfish_manual.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
