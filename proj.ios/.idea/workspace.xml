@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d6424d6-8a24-4a43-8dc3-b312a821331c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/find.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Classes/AppDelegate.cpp" afterPath="$PROJECT_DIR$/../Classes/AppDelegate.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Classes/smartfish/loading/LoaderMax.h" afterPath="$PROJECT_DIR$/../Classes/smartfish/loading/LoaderMax.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Resources/src/isometric/IsoScene.js" afterPath="$PROJECT_DIR$/../Resources/src/isometric/IsoScene.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Resources/cocos2d-jsb.js" afterPath="$PROJECT_DIR$/../Resources/cocos2d-jsb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Resources/src/resource.js" afterPath="$PROJECT_DIR$/../Resources/src/resource.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="proj.ios.iws" />
@@ -28,10 +29,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoadingItem.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Classes/smartfish/loading/LoadingItem.h">
+      <file leaf-file-name="isometricScene.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Resources/src/view/isometric/isometricScene.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="28" selection-start="360" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="595">
+            <state line="13" column="61" selection-start="321" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="952">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="isoLayer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Resources/src/view/isometric/isoLayer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="12" selection-start="102" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2584">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cocos2d-jsb.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Resources/cocos2d-jsb.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="32" selection-start="2508" selection-end="2508" vertical-scroll-proportion="0.0" vertical-offset="854" max-vertical-offset="1445">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceManager.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Classes/smartfish/resource/ResourceManager.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="29" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsoNode.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Classes/smartfish/isometric/IsoNode.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="4437">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsoScene.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Resources/src/isometric/IsoScene.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="9" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.48932928" vertical-offset="1005" max-vertical-offset="3026">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resource.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Resources/src/resource.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceManager.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Classes/smartfish/resource/ResourceManager.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
@@ -40,7 +104,7 @@
       <file leaf-file-name="LoadingItem.cpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Classes/smartfish/loading/LoadingItem.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="13" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="4641">
+            <state line="109" column="52" selection-start="2474" selection-end="2478" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4641">
               <folding>
                 <element signature="e#40#64#0" expanded="true" />
               </folding>
@@ -51,40 +115,9 @@
       <file leaf-file-name="AppDelegate.cpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Classes/AppDelegate.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="49" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="2397">
+            <state line="76" column="23" selection-start="2266" selection-end="2266" vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2397">
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoaderMaxTest.cpp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Classes/test/LoaderMaxTest.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="12" selection-start="131" selection-end="131" vertical-scroll-proportion="-0.107368425" vertical-offset="187" max-vertical-offset="1190">
-              <folding>
-                <element signature="e#68#94#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoaderMax.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Classes/smartfish/loading/LoaderMax.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="35" selection-start="2455" selection-end="2473" vertical-scroll-proportion="0.0" vertical-offset="1454" max-vertical-offset="2176">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoaderMax.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Classes/smartfish/loading/LoaderMax.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="72" selection-start="4294" selection-end="4300" vertical-scroll-proportion="0.0" vertical-offset="2589" max-vertical-offset="3162">
-              <folding>
-                <element signature="e#37#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,23 +141,24 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../Resources/src/resource.js" />
         <option value="$PROJECT_DIR$/../Resources/src/lesson5.js" />
         <option value="$PROJECT_DIR$/../Resources/src/myApp.js" />
-        <option value="$PROJECT_DIR$/../Resources/cocos2d-jsb.js" />
         <option value="$PROJECT_DIR$/../Resources/src/sample/ContextEvent.js" />
         <option value="$PROJECT_DIR$/../Resources/src/test/HttpTest.js" />
         <option value="$PROJECT_DIR$/../Classes/smartfish/thread/ThreadPool.cpp" />
         <option value="$PROJECT_DIR$/../Classes/smartfish/loading/LoaderMax.cpp" />
         <option value="$PROJECT_DIR$/../Classes/smartfish/loading/LoaderMax.h" />
+        <option value="$PROJECT_DIR$/../Resources/cocos2d-jsb.js" />
         <option value="$PROJECT_DIR$/../Classes/AppDelegate.cpp" />
+        <option value="$PROJECT_DIR$/../Resources/src/resource.js" />
+        <option value="$PROJECT_DIR$/../Resources/src/isometric/IsoScene.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="width" value="1920" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -241,6 +275,32 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isometric" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -328,6 +388,28 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isometric" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -407,7 +489,7 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="thread" />
+              <option name="myItemId" value="resource" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,6 +512,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="loading" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartfish" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="isometric" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -522,7 +626,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="810" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="980" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32753623" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -530,8 +634,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19689485" sideWeight="0.7289855" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27101448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14707433" sideWeight="0.7953488" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20465116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -558,71 +662,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../scripting/js_bindings_smartfish_manual.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="41" selection-start="2746" selection-end="2752" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="4012">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/http/JSHttpRequest.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="8" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/http/JSHttpRequest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="63" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/thread/ThreadPool.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="127" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/thread/Thread.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="29" selection-start="638" selection-end="645" vertical-scroll-proportion="-0.95368785" vertical-offset="1117" max-vertical-offset="1700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/thread/ThreadMutex.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="9" selection-start="48" selection-end="48" vertical-scroll-proportion="0.11663808" vertical-offset="0" max-vertical-offset="714">
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/thread/ThreadTask.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/thread/ThreadTask.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="27" selection-start="273" selection-end="273" vertical-scroll-proportion="0.50428814" vertical-offset="80" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/loading/LoadingItem.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="28" selection-start="360" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../extensions/network/HttpClient.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="28" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.41754386" vertical-offset="765" max-vertical-offset="8806">
@@ -637,20 +676,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/loading/LoadingItem.cpp">
+    <entry file="file://$PROJECT_DIR$/../Classes/test/LoaderMaxTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="13" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.0" vertical-offset="1068" max-vertical-offset="4641">
+        <state line="33" column="49" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1190">
           <folding>
-            <element signature="e#40#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/loading/LoaderMax.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="72" selection-start="4294" selection-end="4300" vertical-scroll-proportion="0.0" vertical-offset="2589" max-vertical-offset="3162">
-          <folding>
-            <element signature="e#37#54#0" expanded="true" />
+            <element signature="e#68#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -662,21 +692,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/loading/LoaderMax.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="72" selection-start="4294" selection-end="4300" vertical-scroll-proportion="0.0" vertical-offset="2589" max-vertical-offset="3162">
+          <folding>
+            <element signature="e#37#54#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/loading/LoadingItem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="52" selection-start="2474" selection-end="2478" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4641">
+          <folding>
+            <element signature="e#40#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/resource/ResourceManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/isometric/SceneLayoutRenderer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.858885" vertical-offset="493" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/resource/ResourceManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="29" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Resources/src/view/isometric/isoLayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="102" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Resources/cocos2d-jsb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="32" selection-start="2508" selection-end="2508" vertical-scroll-proportion="0.0" vertical-offset="854" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Classes/AppDelegate.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="49" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="2397">
+        <state line="76" column="23" selection-start="2266" selection-end="2266" vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2397">
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/test/LoaderMaxTest.cpp">
+    <entry file="file://$PROJECT_DIR$/../Resources/src/view/isometric/isometricScene.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="131" selection-end="131" vertical-scroll-proportion="-0.107368425" vertical-offset="187" max-vertical-offset="1190">
-          <folding>
-            <element signature="e#68#94#0" expanded="true" />
-          </folding>
+        <state line="13" column="61" selection-start="321" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Resources/src/resource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/isometric/IsoNode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Resources/src/isometric/IsoScene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="9" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.48932928" vertical-offset="1005" max-vertical-offset="3026">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -66,10 +66,10 @@ bool AppDelegate::applicationDidFinishLaunching()
 //	IsometricTest* test = new IsometricTest();
 //	JSHttpRequestTest* jsHttpRequest = new JSHttpRequestTest();
 //	ThreadTest* threadTest = new ThreadTest();
-	LoaderMaxTest* loaderMaxTest = new LoaderMaxTest();
+//	LoaderMaxTest* loaderMaxTest = new LoaderMaxTest();
 //	MiscTest* miscTest = new MiscTest();
 //	EntityTest* miscTest = new EntityTest();
-	return true;
+//	return true;
 
     ScriptingCore* sc = ScriptingCore::getInstance();
     sc->addRegisterCallback(register_all_cocos2dx);

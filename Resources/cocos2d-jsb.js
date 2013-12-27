@@ -68,10 +68,11 @@ director.setDisplayStats(true);
 // set FPS. the default value is 1.0/60 if you don't call this
 director.setAnimationInterval(1.0 / 60);
 
-var http = new HttpTest();
+//var http = new HttpTest();
 
 // create a scene. it's an autorelease object
-var myScene = new Lesson5();
+var myScene = new IsometricScene();
+//var myScene = new Lesson5();
 
 // run
 director.runWithScene(myScene);

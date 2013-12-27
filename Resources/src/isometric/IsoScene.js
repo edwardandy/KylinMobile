@@ -39,7 +39,6 @@ IsoScene = sf.IsoNode.extend( {
         {
             this._isoObjects.push( isoNode );
             this.getContainer().addChild( isoNode.getContainer(), isoNode.getDepth() )
-            isoNode.onAdded();
             this.updateGraph( isoNode, false );
             var argnum = arguments.length;
             switch( argnum )
