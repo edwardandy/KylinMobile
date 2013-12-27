@@ -53,7 +53,9 @@ var appFiles = [
     'src/sample/GameStartService.js',
     'src/sample/UserModel.js',
     'src/myMVC.js',
-    'src/test/HttpTest.js'
+    'src/test/HttpTest.js',
+    'src/libs/UIComponent/MultiList.js',
+    'src/MultiListTest.js'
 ];
 
 cc.dumpConfig();
@@ -71,7 +73,8 @@ director.setAnimationInterval(1.0 / 60);
 //var http = new HttpTest();
 
 // create a scene. it's an autorelease object
-var myScene = new IsometricScene();
+var myScene = new MultiListScene();
+//var myScene = new IsometricScene();
 //var myScene = new Lesson5();
 
 // run

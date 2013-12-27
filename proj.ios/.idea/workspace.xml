@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d6424d6-8a24-4a43-8dc3-b312a821331c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Classes/AppDelegate.cpp" afterPath="$PROJECT_DIR$/../Classes/AppDelegate.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Resources/src/isometric/IsoScene.js" afterPath="$PROJECT_DIR$/../Resources/src/isometric/IsoScene.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testItemBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Resources/src/libs/UIComponent/MultiList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Resources/src/MultiListTest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AppController.mm" afterPath="$PROJECT_DIR$/AppController.mm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Resources/cocos2d-jsb.js" afterPath="$PROJECT_DIR$/../Resources/cocos2d-jsb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Resources/src/resource.js" afterPath="$PROJECT_DIR$/../Resources/src/resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Training.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Training.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="proj.ios.iws" />
@@ -23,16 +25,34 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_iPhone_Retina__4_inch_64_bit__7.0" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
   <component name="FavoritesManager">
     <favorites_list name="Training" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="AppController.mm" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AppController.mm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="73" selection-start="838" selection-end="838" vertical-scroll-proportion="0.27377522" vertical-offset="190" max-vertical-offset="1725">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="isometricScene.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Resources/src/view/isometric/isometricScene.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="61" selection-start="321" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="952">
+            <state line="40" column="121" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0" vertical-offset="455" max-vertical-offset="840">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myApp.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Resources/src/myApp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="33" selection-start="2873" selection-end="2873" vertical-scroll-proportion="0.0" vertical-offset="942" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -41,7 +61,27 @@
       <file leaf-file-name="isoLayer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Resources/src/view/isometric/isoLayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="102" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2584">
+            <state line="15" column="17" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="2280">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultiListTest.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Resources/src/MultiListTest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="46" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1320">
+              <folding>
+                <element signature="e#0#38#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson5.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Resources/src/lesson5.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="27" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -50,64 +90,26 @@
       <file leaf-file-name="cocos2d-jsb.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Resources/cocos2d-jsb.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="32" selection-start="2508" selection-end="2508" vertical-scroll-proportion="0.0" vertical-offset="854" max-vertical-offset="1445">
+            <state line="63" column="45" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.0" vertical-offset="727" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResourceManager.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Classes/smartfish/resource/ResourceManager.h">
+      <file leaf-file-name="MultiList.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Resources/src/libs/UIComponent/MultiList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="29" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+            <state line="13" column="40" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="3705">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsoNode.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Classes/smartfish/isometric/IsoNode.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="4437">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IsoScene.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IsoScene.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Resources/src/isometric/IsoScene.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="9" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.48932928" vertical-offset="1005" max-vertical-offset="3026">
+            <state line="19" column="36" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="2670">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resource.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Resources/src/resource.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourceManager.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Classes/smartfish/resource/ResourceManager.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadingItem.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Classes/smartfish/loading/LoadingItem.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="52" selection-start="2474" selection-end="2478" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4641">
-              <folding>
-                <element signature="e#40#64#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -115,10 +117,8 @@
       <file leaf-file-name="AppDelegate.cpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Classes/AppDelegate.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="23" selection-start="2266" selection-end="2266" vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2397">
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+            <state line="92" column="41" selection-start="2983" selection-end="2983" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="2115">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,17 +148,20 @@
         <option value="$PROJECT_DIR$/../Classes/smartfish/thread/ThreadPool.cpp" />
         <option value="$PROJECT_DIR$/../Classes/smartfish/loading/LoaderMax.cpp" />
         <option value="$PROJECT_DIR$/../Classes/smartfish/loading/LoaderMax.h" />
-        <option value="$PROJECT_DIR$/../Resources/cocos2d-jsb.js" />
         <option value="$PROJECT_DIR$/../Classes/AppDelegate.cpp" />
         <option value="$PROJECT_DIR$/../Resources/src/resource.js" />
         <option value="$PROJECT_DIR$/../Resources/src/isometric/IsoScene.js" />
+        <option value="$PROJECT_DIR$/../Resources/src/libs/UIComponent/MultiList.js" />
+        <option value="$PROJECT_DIR$/../Resources/src/MultiListTest.js" />
+        <option value="$PROJECT_DIR$/../Resources/cocos2d-jsb.js" />
+        <option value="$PROJECT_DIR$/AppController.mm" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="980" />
+    <option name="width" value="1280" />
+    <option name="height" value="708" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -167,7 +170,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -189,6 +192,16 @@
       <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" />
@@ -348,6 +361,32 @@
               <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UIComponent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Training" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -371,7 +410,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="http" />
+              <option name="myItemId" value="popup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -410,28 +449,8 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Classes" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -445,95 +464,7 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Classes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Classes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smartfish" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Classes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smartfish" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Classes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smartfish" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loading" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Training" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Classes" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smartfish" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="isometric" />
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -542,16 +473,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="JavaScript.Libraries" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scripting/js_bindings_smartfish_manual.h" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Resources/res/testItemBg.png" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Training" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Training">
+  <component name="RunManager" selected="Application.cocos2dx">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="Training" TARGET_NAME="Training" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Training" RUN_TARGET_NAME="Training" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <method />
@@ -564,19 +497,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Training" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Training" PROJECT_NAME="Training" TARGET_NAME="Training" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Training" RUN_TARGET_NAME="Training" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <configuration default="false" name="cocos2dx" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="cocos2dx" PROJECT_NAME="Training" TARGET_NAME="Training" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Training" RUN_TARGET_NAME="Training" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <RunnerSettings RunnerId="AppRunner" />
       <ConfigurationWrapper RunnerId="AppRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="cocos2dx" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="cocos2dx" PROJECT_NAME="cocos2dx" TARGET_NAME="cocos2dx" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="TestCpp" RUN_TARGET_NAME="TestCpp" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
-      <envs />
-      <method />
-    </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.Training" />
-      <item index="1" class="java.lang.String" itemvalue="Application.cocos2dx" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.cocos2dx" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -626,15 +554,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="980" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32753623" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32736155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14707433" sideWeight="0.7953488" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18695307" sideWeight="0.6726384" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20465116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -643,6 +570,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -662,103 +590,24 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../extensions/network/HttpClient.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="28" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.41754386" vertical-offset="765" max-vertical-offset="8806">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../extensions/network/HttpClient.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="6" selection-start="1711" selection-end="1711" vertical-scroll-proportion="-0.9622642" vertical-offset="1292" max-vertical-offset="2074">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/test/LoaderMaxTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="49" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1190">
-          <folding>
-            <element signature="e#68#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/loading/LoaderMax.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="35" selection-start="2455" selection-end="2473" vertical-scroll-proportion="0.0" vertical-offset="1454" max-vertical-offset="2176">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/smartfish/loading/LoaderMax.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="72" selection-start="4294" selection-end="4300" vertical-scroll-proportion="0.0" vertical-offset="2589" max-vertical-offset="3162">
-          <folding>
-            <element signature="e#37#54#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Classes/smartfish/loading/LoadingItem.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="52" selection-start="2474" selection-end="2478" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4641">
-          <folding>
-            <element signature="e#40#64#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="109" column="52" selection-start="2474" selection-end="2478" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4641" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Classes/smartfish/resource/ResourceManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Classes/smartfish/isometric/SceneLayoutRenderer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.858885" vertical-offset="493" max-vertical-offset="2295">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.858885" vertical-offset="493" max-vertical-offset="2295" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Classes/smartfish/resource/ResourceManager.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Resources/src/view/isometric/isoLayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="102" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Resources/cocos2d-jsb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="32" selection-start="2508" selection-end="2508" vertical-scroll-proportion="0.0" vertical-offset="854" max-vertical-offset="1445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Classes/AppDelegate.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="23" selection-start="2266" selection-end="2266" vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2397">
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Resources/src/view/isometric/isometricScene.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="61" selection-start="321" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="952">
-          <folding />
-        </state>
+        <state line="16" column="29" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Resources/src/resource.js">
@@ -777,7 +626,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Resources/src/isometric/IsoScene.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="9" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.48932928" vertical-offset="1005" max-vertical-offset="3026">
+        <state line="19" column="36" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Classes/AppDelegate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="41" selection-start="2983" selection-end="2983" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="2115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Resources/src/view/isometric/isoLayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="17" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="2280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Resources/src/libs/UIComponent/MultiList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="40" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Resources/src/myApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="33" selection-start="2873" selection-end="2873" vertical-scroll-proportion="0.0" vertical-offset="942" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Resources/src/lesson5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Resources/src/MultiListTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="46" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1320">
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Resources/cocos2d-jsb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="45" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.0" vertical-offset="727" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Resources/src/view/isometric/isometricScene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="121" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0" vertical-offset="455" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppController.mm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="73" selection-start="838" selection-end="838" vertical-scroll-proportion="0.27377522" vertical-offset="190" max-vertical-offset="1725">
           <folding />
         </state>
       </provider>
