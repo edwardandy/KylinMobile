@@ -55,7 +55,7 @@ var TestPopupWindow1 = IPopUpWindow.extend({
     init:function(){
         if(!this._super())
             return false;
-        var sp = cc.Sprite.create('res/Images/background.png',cc.rect(0,0,250,250));
+        var sp = cc.Sprite.create('res/background.png',cc.rect(0,0,250,250));
         this.setAnchorPoint(cc.p(0,0));
         sp.ignoreAnchorPointForPosition(true);
         this.addChild(sp);
@@ -67,7 +67,7 @@ var TestPopupWindow2 = IPopUpWindow.extend({
     init:function(){
         if(!this._super())
             return false;
-        var sp = cc.Sprite.create('res/Images/background1.png',cc.rect(0,0,250,250));
+        var sp = cc.Sprite.create('res/background1.png',cc.rect(0,0,250,250));
         this.setAnchorPoint(cc.p(0,0));
         sp.ignoreAnchorPointForPosition(true);
         this.addChild(sp);
@@ -80,7 +80,7 @@ var TestPopupWindow3 = IPopUpWindow.extend({
         if(!this._super())
             return false;
         this.setAnchorPoint(cc.p(0,0));
-        var sp = cc.Sprite.create('res/Images/background2.png',cc.rect(0,0,250,250));
+        var sp = cc.Sprite.create('res/background2.png',cc.rect(0,0,250,250));
         sp.ignoreAnchorPointForPosition(true);
         this.addChild(sp);
         this.setContentSize(sp.getContentSize());
@@ -92,7 +92,7 @@ var TestPopupWindow4 = IPopUpWindow.extend({
         if(!this._super())
             return false;
         this.setAnchorPoint(cc.p(0,0));
-        var sp = cc.Sprite.create('res/Images/background3.png',cc.rect(0,0,250,250));
+        var sp = cc.Sprite.create('res/background3.png',cc.rect(0,0,250,250));
         sp.ignoreAnchorPointForPosition(true);
         this.addChild(sp);
         this.setContentSize(sp.getContentSize());

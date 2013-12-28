@@ -55,7 +55,17 @@ var appFiles = [
     'src/myMVC.js',
     'src/test/HttpTest.js',
     'src/libs/UIComponent/MultiList.js',
-    'src/MultiListTest.js'
+    'src/MultiListTest.js',
+
+    'src/global/global.js',
+    'src/libs/appears/Appear.js',
+    'src/libs/popup/PopUpManager.js',
+    'src/libs/popup/PopUpVos.js',
+    'src/libs/tabList/TabItem.js',
+    'src/libs/tabList/TabList.js',
+    'src/sample/TestTabListLayer.js',
+    'src/sample/TestPopupManager.js'
+
 ];
 
 cc.dumpConfig();
@@ -73,10 +83,14 @@ director.setAnimationInterval(1.0 / 60);
 //var http = new HttpTest();
 
 // create a scene. it's an autorelease object
-var myScene = new MultiListScene();
+//var myScene = new MultiListScene();
 //var myScene = new IsometricScene();
 //var myScene = new Lesson5();
 
+var myScene = cc.Scene.create();
+var layer = new TestPopupManager;
+layer.init();
+myScene.addChild(layer);
 // run
 director.runWithScene(myScene);
 
