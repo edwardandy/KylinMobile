@@ -9,7 +9,6 @@ var TestMultiListLayer = cc.Layer.extend({
 
         var director = cc.Director.getInstance();
         var winSize = director.getWinSize();
-
         director.setDepthTest(true);
 
         var bmLabel = cc.LabelBMFont.create("MultiList","res/arial16.fnt");
@@ -53,28 +52,29 @@ var TestListItem = ListItem.extend({
                 skin.addChild(sp,0,1);
             }
         }
+
+        if(this._isSelected)
+            this.onSelected();
+        else
+            this.onUnselected();
     },
     onSelected:function(){
         this._super();
-        var skin = this.getChildByTag(1);
-        if(skin)
+        var sp = this.getChildByTag(2);
+        if(!sp)
         {
-            if(null != skin.getChildByTag(1))
-            {
-                skin.getChildByTag(1).setVisible(true);
-            }
+            sp = cc.Sprite.create("res/close.png",cc.rect(0,0,32,32));
+            sp.setAnchorPoint(cc.p(0,0));
+            this.addChild(sp,1,2);
         }
+
+        sp.setVisible(true);
     },
     onUnselected:function(){
         this._super();
-        var skin = this.getChildByTag(1);
-        if(skin)
-        {
-            if(null != skin.getChildByTag(1))
-            {
-                skin.getChildByTag(1).setVisible(false);
-            }
-        }
+        var sp = this.getChildByTag(2);
+        if(sp)
+            sp.setVisible(false);
     }
 });
 
