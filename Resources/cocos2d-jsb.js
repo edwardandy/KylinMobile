@@ -54,8 +54,8 @@ var appFiles = [
     'src/sample/UserModel.js',
     'src/myMVC.js',
     'src/test/HttpTest.js',
-    'src/libs/UIComponent/MultiList.js',
-    'src/MultiListTest.js',
+    //'src/libs/UIComponent/MultiList.js',
+    //'src/MultiListTest.js',
 
     'src/global/global.js',
     'src/libs/appears/Appear.js',
@@ -64,7 +64,11 @@ var appFiles = [
     'src/libs/tabList/TabItem.js',
     'src/libs/tabList/TabList.js',
     'src/sample/TestTabListLayer.js',
-    'src/sample/TestPopupManager.js'
+    'src/sample/TestPopupManager.js',
+
+    'src/libs/multiList/ListItem.js',
+    'src/libs/multiList/MultiList.js',
+    'src/sample/TestMultiListLayer.js'
 
 ];
 
@@ -88,7 +92,7 @@ director.setAnimationInterval(1.0 / 60);
 //var myScene = new Lesson5();
 
 var myScene = cc.Scene.create();
-var layer = new TestPopupManager;
+var layer = new TestMultiListLayer;//new TestPopupManager;
 layer.init();
 myScene.addChild(layer);
 // run
