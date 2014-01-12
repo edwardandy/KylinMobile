@@ -31,6 +31,7 @@ require( 'jsb_smartfish_extension_auto_api.js' );
 require( 'jsb_smartfish_extension.js' );
 require( 'src/libs/turbo/turbo.js' );
 require( 'src/libs/http/http.js' );
+require( 'src/libs/tweenjs/tweenjs/Tween.js' );
 
 var appFiles = [
     'src/lesson5.js',
@@ -85,6 +86,8 @@ director.setDisplayStats(true);
 director.setAnimationInterval(1.0 / 60);
 
 //var http = new HttpTest();
+
+cc.sch
 
 // create a scene. it's an autorelease object
 //var myScene = new MultiListScene();
