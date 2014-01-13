@@ -25,14 +25,19 @@ var TestMultiListLayer = cc.Layer.extend({
         list1.setMultiSeleted(true);
 
         this._data = [];
-        for(var i = 0;i<50;++i)
+        for(var i = 0;i<500;++i)
         {
             this._data[i] = i;
         }
 
         list.setData(this._data);
         list1.setData(this._data);
+
+        this.scheduleUpdate();
         return true;
+    },
+    update:function(fDelta){
+        createjs.Tween.tick(fDelta,false);
     }
 });
 

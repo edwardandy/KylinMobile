@@ -31,7 +31,16 @@ require( 'jsb_smartfish_extension_auto_api.js' );
 require( 'jsb_smartfish_extension.js' );
 require( 'src/libs/turbo/turbo.js' );
 require( 'src/libs/http/http.js' );
+
+require( 'src/libs/tweenjs/createjs/events/Event.js' );
+require( 'src/libs/tweenjs/createjs/events/EventDispatcher.js' );
+require( 'src/libs/tweenjs/tweenjs/version.js' );
 require( 'src/libs/tweenjs/tweenjs/Tween.js' );
+require( 'src/libs/tweenjs/tweenjs/Timeline.js' );
+require( 'src/libs/tweenjs/tweenjs/Ease.js' );
+require( 'src/libs/tweenjs/tweenjs/CSSPlugin.js' );
+require( 'src/libs/tweenjs/tweenjs/SamplePlugin.js' );
+require( 'src/libs/tweenjs/tweenjs/MotionGuidePlugin.js' );
 
 var appFiles = [
     'src/lesson5.js',
@@ -87,7 +96,7 @@ director.setAnimationInterval(1.0 / 60);
 
 //var http = new HttpTest();
 
-cc.sch
+
 
 // create a scene. it's an autorelease object
 //var myScene = new MultiListScene();
