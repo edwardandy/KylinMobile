@@ -18,11 +18,20 @@ var MultiList = cc.Layer.extend({
     _index:0,
     _mask:null,
     itemInstance:null,
+
     _bClicked:false,
     _startPt:null,
+
     _curSelectItemId:-1,
     _bMultiSelect:false,
     _multiSelectIds:[],
+
+    _lastDelta:0,
+    _tweenPosition:0,
+    _bTweening:false,
+    /**
+    * public 销毁前释放资源
+    */
     dispose:function(){
         this.mContainer.release();
 
@@ -39,6 +48,16 @@ var MultiList = cc.Layer.extend({
         this._mask.release();
         this.itemInstance.release();
     },
+    /**
+     * constructor
+     * @param clazz
+     * @param skinClazz
+     * @param row
+     * @param col
+     * @param rowSpace
+     * @param colSpace
+     * @param direction
+     */
     ctor:function(clazz,skinClazz, row, col, rowSpace,colSpace,direction){
         this._super();
         this.itemClazz 		= clazz;
@@ -72,9 +91,10 @@ var MultiList = cc.Layer.extend({
         this.setTouchEnabled(true);
         this.setContentSize(cc.size((this.itemInstance.getContentSize().width+this.colSpace)*this.col - this.colSpace
             ,(this.itemInstance.getContentSize().height+this.rowSpace)*this.row - this.rowSpace));
+        this.scheduleUpdate();
     },
     /**
-     * 绘制遮罩
+     * public 绘制遮罩
      */
     drawMask:function(drawX, drawY, drawWidth, drawHeight){
         if(!drawX)
@@ -89,7 +109,7 @@ var MultiList = cc.Layer.extend({
         this._mask.setContentSize(cc.size(drawWidth,drawHeight));
     },
     /**
-     * 刷新显示对象中的元素
+     * private 刷新显示对象中的元素
      */
     make:function(){
         this.mList = [];
@@ -121,7 +141,7 @@ var MultiList = cc.Layer.extend({
         }
     },
     /**
-     * 获取新的子项
+     * protected 获取新的子项
      */
     getNewItem:function(){
         var item = new this.itemClazz();
@@ -133,19 +153,19 @@ var MultiList = cc.Layer.extend({
         return item;
     },
     /**
-     * 设置滚动方向
+     * protected 设置滚动方向
      */
     setDirection:function(dir){
         this._direction = dir;
     },
     /**
-     * 获取列表数据
+     * public 获取列表数据
      */
     getData:function(){
         return this._data;
     },
     /**
-     * 设置列表数据
+     * public 设置列表数据
      */
     setData:function(value){
         this._data 			= value;
@@ -154,7 +174,7 @@ var MultiList = cc.Layer.extend({
         this.fill(true);
     },
     /**
-     * 执行滚动时的数据更新
+     * public 执行滚动时的数据更新
      */
     fill:function(isAll){
         var i
@@ -299,7 +319,7 @@ var MultiList = cc.Layer.extend({
         }
     },
     /**
-     * 行或列的间距
+     * private 行或列的间距
      */
     getItemSize:function(){
         if(this._direction == Direction.HORIZONTAL)
@@ -308,23 +328,35 @@ var MultiList = cc.Layer.extend({
         }
         return this.itemInstance.getContentSize().width + this.colSpace;
     },
+    /**
+     * private 将原点在左上角的Y坐标转换为原点在左下角的Y坐标
+     * @param srcY
+     * @returns {number}
+     */
     convertY:function(srcY){
         var height = (this.itemInstance.getContentSize().height + this.rowSpace)*this.row
                 - this.rowSpace;
-        //cc.log("convertY srcY:"+srcY+" height:"+height);
         return height - srcY - this.itemInstance.getContentSize().height
                 + this.itemInstance.getAnchorPointInPoints().y;
     },
+    /**
+     * private 将原点在左上角的Y坐标转换为原点在左下角的Y坐标
+     * @param srcX
+     * @returns {*}
+     */
     convertX:function(srcX){
-        //cc.log("convertX srcX:"+srcX);
         return srcX + this.itemInstance.getAnchorPointInPoints().x;
     },
     /**
-     * 获取行列的索引
+     * public 获取行列的索引
      */
     getIndex:function(){
         return this._index;
     },
+    /**
+     * public 设置行列索引
+     * @param value
+     */
     setIndex:function(value){
         if(value <=0)
         {
@@ -346,24 +378,14 @@ var MultiList = cc.Layer.extend({
             }
         }
         this._index = value;
-        this.stopAllActions();
-        this.setCurrentPoint(this._index * this.getItemSize());
-        //需要jsbinding实现
-        /*var acTween = cc.ActionTween.create(0.5,'currentPoint'
-            ,this.getCurrentPoint(),this._index * this.getItemSize());
-        var acEase = cc.EaseExponentialOut.create(acTween);
-        this.runAction(acEase);*/
-    },
-    updateTweenAction:function(value, key){
-        switch(key)
-        {
-            case 'currentPoint':
-                this.setCurrentPoint(value);
-                break;
-        }
+
+        createjs.Tween.removeTweens(this);
+        this._tweenPosition = this.getCurrentPoint();
+        createjs.Tween.get(this).to({_tweenPosition:(this._index * this.getItemSize())},0.5,createjs.Ease.quadOut);
+        this._bTweening = true;
     },
     /**
-     * 总索引数
+     * public 总索引数
      */
     getTotalIndex:function(){
         var num;
@@ -379,13 +401,13 @@ var MultiList = cc.Layer.extend({
         return num <0?0:num;
     },
     /**
-     * 获取列表位置
+     * public 获取列表位置
      */
     getCurrentPoint:function(){
         return this._currentPoint;
     },
     /**
-     * 设置列表位置
+     * public 设置列表位置
      */
     setCurrentPoint:function(value){
         this._currentPoint = value;
@@ -398,7 +420,7 @@ var MultiList = cc.Layer.extend({
         this.fill();
     },
     /**
-     * 单页的行或列数
+     * public 单页的行或列数
      */
     getPageNum:function(){
         if(this._direction == Direction.HORIZONTAL)
@@ -411,7 +433,7 @@ var MultiList = cc.Layer.extend({
     // -------------------- 对数据的查询操作 --------------------
     // --------------------------------------------------------
     /**
-     * 查找ITEM
+     * public 查找ITEM
      */
     searchItem:function(searchField,filedValue){
         var item;
@@ -430,7 +452,7 @@ var MultiList = cc.Layer.extend({
         return null;
     },
     /**
-     * update single item
+     * public update single item
      */
     updateItem:function(searchField,filedValue,value){
         var item = this.searchItem(searchField,filedValue);
@@ -440,7 +462,7 @@ var MultiList = cc.Layer.extend({
         this.updateItemData(searchField,filedValue,value);
     },
     /**
-     *  查找数据池里面的数据
+     *  public 查找数据池里面的数据
      */
     searchItemData:function(searchField,filedValue){
         var o;
@@ -454,6 +476,11 @@ var MultiList = cc.Layer.extend({
         }
         return null;
     },
+    /**
+     * private 通过itemid查找item
+     * @param id
+     * @returns {*}
+     */
     searchItemByItemId:function(id){
         if(id<0)
             return null;
@@ -471,7 +498,7 @@ var MultiList = cc.Layer.extend({
         return null;
     },
     /**
-     * 执行所有ITEM的update方法
+     * public 执行所有ITEM的update方法
      */
     updateItems:function(object){
         var item;
@@ -489,7 +516,7 @@ var MultiList = cc.Layer.extend({
         }
     },
     /**
-     * 只更新数据池里的数据
+     * public 只更新数据池里的数据
      */
     updateItemData:function(searchField,filedValue,value){
         var o;
@@ -503,14 +530,21 @@ var MultiList = cc.Layer.extend({
             }
         }
     },
+    /**
+     * 触摸相应
+     * @param touch
+     * @param evt
+     * @returns {boolean}
+     */
     onTouchBegan:function(touch,evt){
+        this._lastDelta = 0;
         var loc = touch.getLocation();
         loc = this.getParent().convertToNodeSpace(loc);
         if(!cc.rectContainsPoint(this.getBoundingBox(),loc))
             return false;
         this._bClicked = true;
         this._startPt = loc;
-        this.stopAllActions();
+        createjs.Tween.removeTweens(this);
         return true;
     },
     onTouchMoved:function(touch,evt){
@@ -531,7 +565,7 @@ var MultiList = cc.Layer.extend({
         else
             delta = -deltaPt.x;
         this.setCurrentPoint(this._currentPoint + delta);
-
+        this._lastDelta = delta;
     },
     onTouchEnded:function(touch,evt){
         if(this._bClicked)
@@ -591,28 +625,98 @@ var MultiList = cc.Layer.extend({
             }
             return;
         }
-        var deltaPt = touch.getDelta();
-        var delta;
-        if(Direction.HORIZONTAL == this._direction)
-            delta = deltaPt.y;
-        else
-            delta = -deltaPt.x;
 
-        var target = this._currentPoint + delta*50;
+        var delta = this._lastDelta;
+        var scale = 10;
+        var target = this._currentPoint + delta*scale;
         if(target >= this.getTotalIndex() * this.getItemSize())
-        {
             target 	= this.getTotalIndex() * this.getItemSize();
-        }else if(target<=0){
+        else if(target<=0)
             target = 0;
-        }
 
-        //需要jsbinding实现
-        /*var acTween = cc.ActionTween.create(0.5,'currentPoint'
-            ,this.getCurrentPoint(),target);
-        var acEase = cc.EaseExponentialIn.create(acTween);
-        this.runAction(acEase);*/
+        var interval = cc.Director.getInstance().getAnimationInterval();
+        var time = (target - this._currentPoint)/(delta/interval);
+
+        this._tweenPosition = this.getCurrentPoint();
+        createjs.Tween.get(this).to({_tweenPosition:target},time,createjs.Ease.quadOut)
+            .call(this.onTweenComplete,[],this);
+        this._bTweening = true;
     },
+    onTweenComplete:function(){
+        this._bTweening = false;
+    },
+    /**
+     * private 每帧显示之前更新Tween的位置
+     * @param delta
+     */
+    update:function(delta){
+        if(this._bTweening)
+            this.setCurrentPoint(this._tweenPosition);
+    },
+    /**
+     * public 设置列表项是否可以多选，可动态切换
+     * @param bMulti
+     */
     setMultiSeleted:function(bMulti){
+        if(bMulti == this._bMultiSelect)
+            return;
+        this.unselectAllItems();
         this._bMultiSelect = bMulti;
+        this._curSelectItemId = -1;
+        this._multiSelectIds = [];
+    },
+    /**
+     * private 取消所有列表项的选中状态
+     */
+    unselectAllItems:function(){
+        var len1 = this.mList.length;
+        for(var i = 0;i<len1;++i)
+        {
+            var len2 = this.mList[i].length;
+            for(var j=0; j<len2; ++j)
+            {
+                var item = this.mList[i][j];
+                item.setSelected(false);
+            }
+        }
+    },
+    /**
+     * public 获取所有选中的列表项或者数据
+     * @param bGetDatas
+     * @returns {Array}
+     */
+    getSelectedItemsOrDatas:function(bGetDatas){
+        var ret = [];
+        if(this._bMultiSelect)
+        {
+            if(this._multiSelectIds.length>0)
+            {
+                var len = this._multiSelectIds.length;
+                for(var i=0;i<len;++i)
+                {
+                    var item = this.searchItemByItemId(this._multiSelectIds[i]);
+                    if(item)
+                    {
+                        if(bGetDatas)
+                            ret.push(item.getData());
+                        else
+                            ret.push(item);
+                    }
+
+                }
+            }
+        }
+        else if(this._curSelectItemId>=0)
+        {
+            item = this.searchItemByItemId(this._curSelectItemId);
+            if(item)
+            {
+                if(bGetDatas)
+                    ret.push(item.getData());
+                else
+                    ret.push(item);
+            }
+        }
+        return ret;
     }
 });
