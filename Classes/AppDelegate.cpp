@@ -15,10 +15,10 @@
 #include "jsb_opengl_registration.h"
 #include "XMLHTTPRequest.h"
 #include "jsb_websocket.h"
-#import "jsb_smartfish_extension_auto.hpp"
-#import "js_bindings_smartfish_manual.h"
-#import "JSHttpRequestTest.h"
-#import "LoaderMaxTest.h"
+#include "jsb_smartfish_extension_auto.hpp"
+#include "js_bindings_smartfish_manual.h"
+//#import "JSHttpRequestTest.h"
+//#import "LoaderMaxTest.h"
 
 USING_NS_CC;
 using namespace CocosDenshion;
@@ -47,7 +47,7 @@ bool AppDelegate::applicationDidFinishLaunching()
 	std::vector<std::string> searchPaths;
 
 	TargetPlatform platform = CCApplication::sharedApplication( )->getTargetPlatform( );
-	if ( platform == kTargetIphone || platform == kTargetIpad )
+	if ( platform == kTargetIphone || platform == kTargetIpad || platform == kTargetWindows )
 	{
 		if ( screenSize.height > 320 )
 		{

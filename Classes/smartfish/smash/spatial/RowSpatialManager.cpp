@@ -102,10 +102,18 @@ NS_SF_BEGIN
 			{
 				return false;
 			}
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
 			minCol = std::max( minCol, 0 );
 			maxCol = std::min( maxCol, m_nCols );
 			minRow = std::max( minRow, 0 );
 			maxRow = std::min( maxRow, m_nRows );
+#elseif (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)
+			minCol = max( minCol, 0 );
+			maxCol = min( maxCol, m_nCols );
+			minRow = max( minRow, 0 );
+			maxRow = min( maxRow, m_nRows );
+#endif
+
 			bool foundAny = false;
 			for ( int i = minRow; i < maxRow; i++ )
 			{

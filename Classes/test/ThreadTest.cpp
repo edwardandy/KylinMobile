@@ -13,12 +13,20 @@ ThreadTest::ThreadTest( )
 	{
 		if(i>=4)
 		{
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
 			sleep( 1 );
+#elseif (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)
+			Sleep(1);
+#endif
 		}
 		ThreadTaskTest *task = new ThreadTaskTest( i );
 		pool->addTask( task );
 	}
-	sleep(5);
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+	sleep( 5 );
+#elseif (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)
+	Sleep(5);
+#endif
 	pool->clearAllThread();
 }
 
@@ -43,5 +51,9 @@ void ThreadTaskTest::run( )
 //	{
 //		cocos2d::CCLog( "%d===== gogogo ==== " ,id);
 //	}
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
 	sleep( 2 );
+#elseif (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)
+	Sleep(2);
+#endif
 }

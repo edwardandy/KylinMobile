@@ -75,7 +75,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\Classes;$(ProjectDir)..\..\..\scripting\javascript\spidermonkey-win32\include;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\extensions;$(ProjectDir)..\..\..\scripting\javascript\bindings;$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Classes\smartfish\loading;$(ProjectDir)..\Classes\smartfish\http;$(ProjectDir)..\Classes\smartfish\smash\core;$(ProjectDir)..\Classes\smartfish\smash\spatial;$(ProjectDir)..\Classes\smartfish\smash\display;$(ProjectDir)..\Classes\smartfish\smash\util;$(ProjectDir)..\Classes\smartfish\smash;$(ProjectDir)..\Classes\smartfish;$(ProjectDir)..\Classes\smartfish\thread;$(ProjectDir)..\scripting\generated;$(ProjectDir)..\scripting;$(ProjectDir)..\Classes;$(ProjectDir)..\..\..\scripting\javascript\spidermonkey-win32\include;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\extensions;$(ProjectDir)..\..\..\scripting\javascript\bindings;$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\pthread;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\CocosDenshion\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;DEBUG;_DEBUG;XP_WIN;JS_HAVE___INTN;JS_INTPTR_TYPE=int;COCOS2D_DEBUG=1;COCOS2D_JAVASCRIPT=1;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -108,7 +108,9 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
 if exist "$(OutDir)\TrainingRes" rd /s /q "$(OutDir)\TrainingRes"
 mkdir "$(OutDir)\TrainingRes"
 xcopy "$(ProjectDir)..\..\..\scripting\javascript\bindings\js\*.js" "$(OutDir)\TrainingRes\" /e /Y
-xcopy "$(ProjectDir)..\Resources" "$(OutDir)\TrainingRes\" /e /Y</Command>
+xcopy "$(ProjectDir)..\Resources" "$(OutDir)\TrainingRes\" /e /Y
+xcopy "$(ProjectDir)..\scripting\generated\*.js" "$(OutDir)\TrainingRes\" /e /Y
+xcopy "$(ProjectDir)..\scripting\js\*.js" "$(OutDir)\TrainingRes\" /e /Y</Command>
     </PreBuildEvent>
     <PreBuildEvent>
       <Message>Copy js and resource files.</Message>
@@ -166,15 +168,120 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)\TrainingRes\" /e /Y</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Classes\smartfish\core\SFObject.cpp" />
+    <ClCompile Include="..\Classes\smartfish\http\JSHttpRequest.cpp" />
+    <ClCompile Include="..\Classes\smartfish\isometric\IsoConfig.cpp" />
+    <ClCompile Include="..\Classes\smartfish\isometric\IsoMath.cpp" />
+    <ClCompile Include="..\Classes\smartfish\isometric\isometric.cpp" />
+    <ClCompile Include="..\Classes\smartfish\isometric\IsoNode.cpp" />
+    <ClCompile Include="..\Classes\smartfish\isometric\IsoPoint.cpp" />
+    <ClCompile Include="..\Classes\smartfish\isometric\IsoSprite.cpp" />
+    <ClCompile Include="..\Classes\smartfish\isometric\SceneLayoutRenderer.cpp" />
+    <ClCompile Include="..\Classes\smartfish\loading\LoaderMax.cpp" />
+    <ClCompile Include="..\Classes\smartfish\loading\LoadingItem.cpp" />
+    <ClCompile Include="..\Classes\smartfish\resource\ResourceManager.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smartfish.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smartfishMarcos.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\conditional\Conditional.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\core\Entity.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\core\EntityComponent.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\core\SmashGroup.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\core\SmashObject.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\display\armature\ArmatureRenderer.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\display\DisplayObjectRenderer.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\display\DisplayObjectScene.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\signal\SignalBus.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\Smash.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\spatial\CollisionResponseComponent.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\spatial\RowDataComponent.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\spatial\RowSpatialManager.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\spatial\RowSpatialObjectComponent.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\spatial\RowTransformComponent.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\strategy\CollisionResponseStrategy.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\strategy\Strategy.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\strategy\StrategyContainingComponent.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\time\AnimatedComponent.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\time\ProcessManager.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\time\TickedComponent.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\touch\TouchComponent.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\util\ObjectType.cpp" />
+    <ClCompile Include="..\Classes\smartfish\smash\util\Utils.cpp" />
+    <ClCompile Include="..\Classes\smartfish\thread\Thread.cpp" />
+    <ClCompile Include="..\Classes\smartfish\thread\ThreadMutex.cpp" />
+    <ClCompile Include="..\Classes\smartfish\thread\ThreadPool.cpp" />
+    <ClCompile Include="..\Classes\smartfish\thread\ThreadTask.cpp" />
+    <ClCompile Include="..\Classes\smartfish\VisibleRect.cpp" />
+    <ClCompile Include="..\Classes\test\EntityTest.cpp" />
+    <ClCompile Include="..\Classes\test\IsometricTest.cpp" />
+    <ClCompile Include="..\Classes\test\JSHttpRequestTest.cpp" />
+    <ClCompile Include="..\Classes\test\LoaderMaxTest.cpp" />
+    <ClCompile Include="..\Classes\test\MiscTest.cpp" />
+    <ClCompile Include="..\Classes\test\ThreadTest.cpp" />
+    <ClCompile Include="..\scripting\generated\jsb_smartfish_extension_auto.cpp" />
+    <ClCompile Include="..\scripting\js_bindings_smartfish_manual.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Classes\smartfish\core\SFObject.h" />
+    <ClInclude Include="..\Classes\smartfish\http\JSHttpRequest.h" />
+    <ClInclude Include="..\Classes\smartfish\isometric\IsoConfig.h" />
+    <ClInclude Include="..\Classes\smartfish\isometric\IsoMath.h" />
+    <ClInclude Include="..\Classes\smartfish\isometric\isometric.h" />
+    <ClInclude Include="..\Classes\smartfish\isometric\IsoNode.h" />
+    <ClInclude Include="..\Classes\smartfish\isometric\IsoPoint.h" />
+    <ClInclude Include="..\Classes\smartfish\isometric\IsoSprite.h" />
+    <ClInclude Include="..\Classes\smartfish\isometric\SceneLayoutRenderer.h" />
+    <ClInclude Include="..\Classes\smartfish\loading\LoaderMax.h" />
+    <ClInclude Include="..\Classes\smartfish\loading\LoadingItem.h" />
+    <ClInclude Include="..\Classes\smartfish\resource\ResourceManager.h" />
+    <ClInclude Include="..\Classes\smartfish\smartfish.h" />
+    <ClInclude Include="..\Classes\smartfish\smartfishMarcos.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\conditional\Conditional.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\core\Entity.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\core\EntityComponent.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\core\SmashGroup.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\core\SmashMacros.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\core\SmashObject.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\display\armature\ArmatureRenderer.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\display\DisplayObjectRenderer.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\display\DisplayObjectScene.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\signal\SignalBus.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\Smash.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\spatial\CollisionResponseComponent.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\spatial\RowDataComponent.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\spatial\RowSpatialManager.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\spatial\RowSpatialObjectComponent.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\spatial\RowTransformComponent.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\strategy\CollisionResponseStrategy.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\strategy\Strategy.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\strategy\StrategyContainingComponent.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\time\AnimatedComponent.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\time\ProcessManager.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\time\TickedComponent.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\touch\TouchComponent.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\util\ObjectType.h" />
+    <ClInclude Include="..\Classes\smartfish\smash\util\Utils.h" />
+    <ClInclude Include="..\Classes\smartfish\thread\Thread.h" />
+    <ClInclude Include="..\Classes\smartfish\thread\ThreadMutex.h" />
+    <ClInclude Include="..\Classes\smartfish\thread\ThreadPool.h" />
+    <ClInclude Include="..\Classes\smartfish\thread\ThreadTask.h" />
+    <ClInclude Include="..\Classes\smartfish\VisibleRect.h" />
+    <ClInclude Include="..\Classes\test\EntityTest.h" />
+    <ClInclude Include="..\Classes\test\IsometricTest.h" />
+    <ClInclude Include="..\Classes\test\JSHttpRequestTest.h" />
+    <ClInclude Include="..\Classes\test\LoaderMaxTest.h" />
+    <ClInclude Include="..\Classes\test\MiscTest.h" />
+    <ClInclude Include="..\Classes\test\ThreadTest.h" />
+    <ClInclude Include="..\scripting\generated\jsb_smartfish_extension_auto.hpp" />
+    <ClInclude Include="..\scripting\js_bindings_smartfish_manual.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="..\Classes\AppDelegate.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\scripting\generated\jsb_smartfish_extension_auto_api.js" />
+    <None Include="..\scripting\js\jsb_smartfish_extension.js" />
     <None Include="res\game.ico" />
   </ItemGroup>
   <ItemGroup>

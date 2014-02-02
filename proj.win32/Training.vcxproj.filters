@@ -11,6 +11,72 @@
     <Filter Include="Classes">
       <UniqueIdentifier>{e93a77e1-af1e-4400-87d3-504b62ebdbb0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\smartfish">
+      <UniqueIdentifier>{69faedec-512e-4890-acdd-3572db196ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\core">
+      <UniqueIdentifier>{c376509a-1297-4882-949a-0837e2601e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\http">
+      <UniqueIdentifier>{f29fd174-b881-41a3-b7f4-363b8e60e2aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\isometric">
+      <UniqueIdentifier>{cdde3c4a-c03f-42ff-9dd3-9fe9f3c2a93e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\loading">
+      <UniqueIdentifier>{0ec1def7-4010-47cf-966a-0bd85d4b843d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\resource">
+      <UniqueIdentifier>{b3f925c2-a4a0-4988-9ee9-253e2960a5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\thread">
+      <UniqueIdentifier>{9d9ebfa6-abfe-4eb2-9d04-ac599a63b4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\smash">
+      <UniqueIdentifier>{372ea878-e45b-409b-90b5-b534ee3080f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\smash\conditional">
+      <UniqueIdentifier>{7e103a29-c066-46bc-9083-0c2b735d29ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\smash\core">
+      <UniqueIdentifier>{4e5c74c3-4668-4001-829e-85e3bc2813a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\smash\display">
+      <UniqueIdentifier>{ab2641ee-c311-4e57-b6a9-5cb9ba6ef861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\smash\display\armature">
+      <UniqueIdentifier>{00d13638-69e0-42cb-b277-e666015ebd1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\smash\signal">
+      <UniqueIdentifier>{0a7188b6-426a-4a1b-8c10-543bf91d29b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\smash\spatial">
+      <UniqueIdentifier>{ea847ac4-c3b8-443b-a84f-b703271702af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\strategy">
+      <UniqueIdentifier>{0d611df3-3ae1-4bcc-b587-f51e989ad62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\smash\time">
+      <UniqueIdentifier>{71bad6d8-04d4-48e5-aa06-50c3319879e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\smash\touch">
+      <UniqueIdentifier>{1425e60d-cb5a-4ac4-b2b0-d516875bf392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\smartfish\smash\util">
+      <UniqueIdentifier>{9d2f7814-053c-4a6e-ac67-d66e2b57026f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\test">
+      <UniqueIdentifier>{f8ccee15-d347-4f90-97cf-6898808b6d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripting">
+      <UniqueIdentifier>{6a4267cc-3200-47ba-9c5b-30caadc490bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripting\generated">
+      <UniqueIdentifier>{69c869e0-55c7-403a-9118-25673d9dc777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripting\js">
+      <UniqueIdentifier>{c18bd79a-275a-45d7-92cc-9f6538c5024a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -18,6 +84,159 @@
     </ClCompile>
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smartfish.cpp">
+      <Filter>Classes\smartfish</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smartfishMarcos.cpp">
+      <Filter>Classes\smartfish</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\VisibleRect.cpp">
+      <Filter>Classes\smartfish</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\core\SFObject.cpp">
+      <Filter>Classes\smartfish\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\http\JSHttpRequest.cpp">
+      <Filter>Classes\smartfish\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\isometric\IsoConfig.cpp">
+      <Filter>Classes\smartfish\isometric</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\isometric\IsoMath.cpp">
+      <Filter>Classes\smartfish\isometric</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\isometric\isometric.cpp">
+      <Filter>Classes\smartfish\isometric</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\isometric\IsoNode.cpp">
+      <Filter>Classes\smartfish\isometric</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\isometric\IsoPoint.cpp">
+      <Filter>Classes\smartfish\isometric</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\isometric\IsoSprite.cpp">
+      <Filter>Classes\smartfish\isometric</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\isometric\SceneLayoutRenderer.cpp">
+      <Filter>Classes\smartfish\isometric</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\loading\LoaderMax.cpp">
+      <Filter>Classes\smartfish\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\loading\LoadingItem.cpp">
+      <Filter>Classes\smartfish\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\resource\ResourceManager.cpp">
+      <Filter>Classes\smartfish\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\thread\Thread.cpp">
+      <Filter>Classes\smartfish\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\thread\ThreadMutex.cpp">
+      <Filter>Classes\smartfish\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\thread\ThreadPool.cpp">
+      <Filter>Classes\smartfish\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\thread\ThreadTask.cpp">
+      <Filter>Classes\smartfish\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\Smash.cpp">
+      <Filter>Classes\smartfish\smash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\conditional\Conditional.cpp">
+      <Filter>Classes\smartfish\smash\conditional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\core\Entity.cpp">
+      <Filter>Classes\smartfish\smash\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\core\EntityComponent.cpp">
+      <Filter>Classes\smartfish\smash\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\core\SmashGroup.cpp">
+      <Filter>Classes\smartfish\smash\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\core\SmashObject.cpp">
+      <Filter>Classes\smartfish\smash\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\display\DisplayObjectRenderer.cpp">
+      <Filter>Classes\smartfish\smash\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\display\DisplayObjectScene.cpp">
+      <Filter>Classes\smartfish\smash\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\display\armature\ArmatureRenderer.cpp">
+      <Filter>Classes\smartfish\smash\display\armature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\signal\SignalBus.cpp">
+      <Filter>Classes\smartfish\smash\signal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\spatial\CollisionResponseComponent.cpp">
+      <Filter>Classes\smartfish\smash\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\spatial\RowDataComponent.cpp">
+      <Filter>Classes\smartfish\smash\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\spatial\RowSpatialManager.cpp">
+      <Filter>Classes\smartfish\smash\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\spatial\RowSpatialObjectComponent.cpp">
+      <Filter>Classes\smartfish\smash\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\spatial\RowTransformComponent.cpp">
+      <Filter>Classes\smartfish\smash\spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\strategy\CollisionResponseStrategy.cpp">
+      <Filter>Classes\smartfish\strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\strategy\Strategy.cpp">
+      <Filter>Classes\smartfish\strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\strategy\StrategyContainingComponent.cpp">
+      <Filter>Classes\smartfish\strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\time\AnimatedComponent.cpp">
+      <Filter>Classes\smartfish\smash\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\time\ProcessManager.cpp">
+      <Filter>Classes\smartfish\smash\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\time\TickedComponent.cpp">
+      <Filter>Classes\smartfish\smash\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\touch\TouchComponent.cpp">
+      <Filter>Classes\smartfish\smash\touch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\util\ObjectType.cpp">
+      <Filter>Classes\smartfish\smash\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\smartfish\smash\util\Utils.cpp">
+      <Filter>Classes\smartfish\smash\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\EntityTest.cpp">
+      <Filter>Classes\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\IsometricTest.cpp">
+      <Filter>Classes\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\JSHttpRequestTest.cpp">
+      <Filter>Classes\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\LoaderMaxTest.cpp">
+      <Filter>Classes\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\MiscTest.cpp">
+      <Filter>Classes\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\ThreadTest.cpp">
+      <Filter>Classes\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scripting\js_bindings_smartfish_manual.cpp">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\scripting\generated\jsb_smartfish_extension_auto.cpp">
+      <Filter>scripting\generated</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -30,10 +249,172 @@
     <ClInclude Include="main.h">
       <Filter>win32</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smartfish.h">
+      <Filter>Classes\smartfish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smartfishMarcos.h">
+      <Filter>Classes\smartfish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\VisibleRect.h">
+      <Filter>Classes\smartfish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\core\SFObject.h">
+      <Filter>Classes\smartfish\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\http\JSHttpRequest.h">
+      <Filter>Classes\smartfish\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\isometric\IsoConfig.h">
+      <Filter>Classes\smartfish\isometric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\isometric\IsoMath.h">
+      <Filter>Classes\smartfish\isometric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\isometric\isometric.h">
+      <Filter>Classes\smartfish\isometric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\isometric\IsoNode.h">
+      <Filter>Classes\smartfish\isometric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\isometric\IsoPoint.h">
+      <Filter>Classes\smartfish\isometric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\isometric\IsoSprite.h">
+      <Filter>Classes\smartfish\isometric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\isometric\SceneLayoutRenderer.h">
+      <Filter>Classes\smartfish\isometric</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\loading\LoaderMax.h">
+      <Filter>Classes\smartfish\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\loading\LoadingItem.h">
+      <Filter>Classes\smartfish\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\resource\ResourceManager.h">
+      <Filter>Classes\smartfish\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\thread\Thread.h">
+      <Filter>Classes\smartfish\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\thread\ThreadMutex.h">
+      <Filter>Classes\smartfish\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\thread\ThreadPool.h">
+      <Filter>Classes\smartfish\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\thread\ThreadTask.h">
+      <Filter>Classes\smartfish\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\Smash.h">
+      <Filter>Classes\smartfish\smash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\conditional\Conditional.h">
+      <Filter>Classes\smartfish\smash\conditional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\core\Entity.h">
+      <Filter>Classes\smartfish\smash\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\core\EntityComponent.h">
+      <Filter>Classes\smartfish\smash\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\core\SmashGroup.h">
+      <Filter>Classes\smartfish\smash\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\core\SmashMacros.h">
+      <Filter>Classes\smartfish\smash\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\core\SmashObject.h">
+      <Filter>Classes\smartfish\smash\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\display\DisplayObjectRenderer.h">
+      <Filter>Classes\smartfish\smash\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\display\DisplayObjectScene.h">
+      <Filter>Classes\smartfish\smash\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\display\armature\ArmatureRenderer.h">
+      <Filter>Classes\smartfish\smash\display\armature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\signal\SignalBus.h">
+      <Filter>Classes\smartfish\smash\signal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\spatial\CollisionResponseComponent.h">
+      <Filter>Classes\smartfish\smash\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\spatial\RowDataComponent.h">
+      <Filter>Classes\smartfish\smash\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\spatial\RowSpatialManager.h">
+      <Filter>Classes\smartfish\smash\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\spatial\RowSpatialObjectComponent.h">
+      <Filter>Classes\smartfish\smash\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\spatial\RowTransformComponent.h">
+      <Filter>Classes\smartfish\smash\spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\strategy\CollisionResponseStrategy.h">
+      <Filter>Classes\smartfish\strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\strategy\Strategy.h">
+      <Filter>Classes\smartfish\strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\strategy\StrategyContainingComponent.h">
+      <Filter>Classes\smartfish\strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\time\AnimatedComponent.h">
+      <Filter>Classes\smartfish\smash\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\time\ProcessManager.h">
+      <Filter>Classes\smartfish\smash\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\time\TickedComponent.h">
+      <Filter>Classes\smartfish\smash\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\touch\TouchComponent.h">
+      <Filter>Classes\smartfish\smash\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\util\ObjectType.h">
+      <Filter>Classes\smartfish\smash\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\smartfish\smash\util\Utils.h">
+      <Filter>Classes\smartfish\smash\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\EntityTest.h">
+      <Filter>Classes\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\IsometricTest.h">
+      <Filter>Classes\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\JSHttpRequestTest.h">
+      <Filter>Classes\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\LoaderMaxTest.h">
+      <Filter>Classes\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\MiscTest.h">
+      <Filter>Classes\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\ThreadTest.h">
+      <Filter>Classes\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scripting\js_bindings_smartfish_manual.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scripting\generated\jsb_smartfish_extension_auto.hpp">
+      <Filter>scripting\generated</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\game.ico">
       <Filter>resource</Filter>
+    </None>
+    <None Include="..\scripting\generated\jsb_smartfish_extension_auto_api.js">
+      <Filter>scripting\generated</Filter>
+    </None>
+    <None Include="..\scripting\js\jsb_smartfish_extension.js">
+      <Filter>scripting\js</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
