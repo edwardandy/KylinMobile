@@ -1,2 +1,5 @@
 RECOVER_Dragon.fla
-proj.ios/.idea
+.idea
+*.opensdf
+*.sdf
+Debug.win32
