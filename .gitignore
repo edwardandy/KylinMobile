@@ -149,3 +149,8 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
+RECOVER_Dragon.fla
+.idea
+*.opensdf
+*.sdf
+Debug.win32

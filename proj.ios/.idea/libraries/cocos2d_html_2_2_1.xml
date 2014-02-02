@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="cocos2d-html 2.2.1" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/../../../../Cocos2d-html5-v2.2.1/cocos2d" />
+        <item url="file://$PROJECT_DIR$/../../../../Cocos2d-html5-v2.2.1/CocosDenshion" />
+        <item url="file://$PROJECT_DIR$/../../../../Cocos2d-html5-v2.2.1/extensions" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../Cocos2d-html5-v2.2.1/cocos2d" />
+      <root url="file://$PROJECT_DIR$/../../../../Cocos2d-html5-v2.2.1/CocosDenshion" />
+      <root url="file://$PROJECT_DIR$/../../../../Cocos2d-html5-v2.2.1/extensions" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

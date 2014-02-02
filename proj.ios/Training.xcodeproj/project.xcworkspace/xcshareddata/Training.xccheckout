@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>18B1D65E-DB62-49CA-8EDA-9D5B72BD8C62</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Training</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B2E438D7-FF73-4AF4-8F8C-16504285656B</key>
+		<string>http://172.17.0.52:8080/git/shinezonemobile.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>proj.ios/Training.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B2E438D7-FF73-4AF4-8F8C-16504285656B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://172.17.0.52:8080/git/shinezonemobile.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B2E438D7-FF73-4AF4-8F8C-16504285656B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B2E438D7-FF73-4AF4-8F8C-16504285656B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Training</string>
+		</dict>
+	</array>
+</dict>
+</plist>
